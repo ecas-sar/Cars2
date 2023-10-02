@@ -48,6 +48,10 @@ class AppTest {
             assertEquals("y = 0.8159870141316804x + 3.4824044422246354", equation);
             double mode = m.mode(dataY);
             assertEquals(-1.0, mode);
+            Double[] toSort = {54.0, 703.0, 612.0, 84.0, 343.0, 480.0};
+            Double[] sortedList = m.sortListMerge(toSort);
+            Double[] expectedList = {54.0, 84.0, 343.0, 480.0, 612.0, 703.0}; 
+            assertArrayEquals(sortedList, expectedList, "They are not equal");
         } catch (Exception e) {
             // TODO Auto-generated catch block
             // e.printStackTrace();

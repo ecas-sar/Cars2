@@ -127,7 +127,7 @@ public class mainSystem implements dataAndStats {
         // White box testing to check if vehicle creation was working properly.
 
         // LinkedList<Double> vehicleYOMs = createDataList(vehicleCollection, "yearOfManufacture", 8, true);
-        // White box testing to check if quantatative data was working properly.
+        // White box testing to check if sampling method was working properly.
     }
 
     /**
@@ -653,6 +653,174 @@ public String generateString(int length)
         return methodName.startsWith("get") && !methodName.equals("getClass") && method.getParameterCount() == 0;
     }
 
+    /** Method intended to perform a sort any given list from the least to most. This will have statements that decide, depending
+     * on list length, whether to use a radix or a merge sort. There is also an option to either return it as an array or a list,
+     * as this function will be required to sort arrays and lists. 
+     * @param <E>
+     * @param toSort
+     * @return a sorted list
+     */
+    public LinkedList<Double> sortList(LinkedList<Double> toSortList)
+    {
+        Object[] toSortObj = toSortList.toArray();
+        Double[] toSort = Arrays.copyOf(toSortObj, toSortObj.length, Double[].class);
+        Double[] sortedArray = new Double[toSort.length];
+        if (toSortList.size() <= 30)
+        {
+            sortedArray = sortListRadix(toSort);
+        }
+        else
+        {
+            sortedArray = sortListMerge(toSort);
+        }
+
+        List<Double> sortedList = Arrays.asList(sortedArray);
+        LinkedList<Double> sortedLinkedList = new LinkedList<Double>(sortedList);
+        return sortedLinkedList;
+    }
+
+    /** Method intended to perform a radix sort on any given list. This will be used for small lists,
+     * as an O(n) search is the most efficient for those. 
+     * @param <E>
+     * @param toSort
+     * @return a sorted list
+     */
+    public Double[] sortListRadix(Double[] toSort)
+    {
+        double maxInList = maxNumber(toSort);
+        int numDigitsInMax = Double.toString(maxInList).length();
+        int placeValue = 10;
+        Double[] sortedList = new Double[toSort.length];
+        while (numDigitsInMax -- > 0)
+        {
+            sortedList = applySort(toSort, placeValue);
+            placeValue *= 10; 
+        }
+
+        return sortedList;
+    }
+
+    /** Method intended to apply a variation of the counting sort on a linked list. This is 
+     * part of the above radix sort, and it is in a seperate method for code readability and reusability.
+     * 
+     * @param toSort
+     * @param placeValue
+     */
+    public Double[] applySort(Double[] toSort, int placeValue)
+    {
+        int range = 10;
+
+        Double[] sortedArray = new Double[toSort.length];
+
+        int[] frequencies = new int[range];
+
+        // calculate the frequency of digits
+        for (int i = 0; i < toSort.length; i++) 
+        {
+            int digit = (int) ((toSort[i] / placeValue) % range);
+            frequencies[digit]++;
+        }
+
+
+        for (int freqIndex = 1; freqIndex < range; freqIndex++)
+        {
+            frequencies[freqIndex] += frequencies[freqIndex - 1];
+        }
+
+        for (int i = toSort.length - 1; i >= 0; i--) 
+        {
+            int digit = (int) (toSort[i] / placeValue) % range;
+            sortedArray[frequencies[digit] - 1] = toSort[i];
+            frequencies[digit]--;
+        }
+
+        return sortedArray;
+    }
+
+    /** Method intended to perform a merge sort on any given list. This will be used for larger lists,
+     * as an O(nlog(n)) search is the most efficient for those. 
+     * @param <E>
+     * @param toSort
+     * @return a sorted list
+     */
+    public Double[] sortListMerge(Double[] toSort)
+    {
+        int listLength = toSort.length;
+        // Array can't be divided into halves if it is less than 2 elements long.
+        if (toSort.length < 2)
+        {
+            return toSort;
+        }
+        int midPoint = listLength/2;
+        Double[] left = new Double[midPoint];
+        Double[] right = new Double[listLength - midPoint]; 
+
+        for (int sortIndex = 0; sortIndex < midPoint; sortIndex++)
+        {
+            left[sortIndex] = toSort[sortIndex];
+        }
+
+        for (int sortIndex = midPoint; sortIndex < listLength; sortIndex++)
+        {
+            right[sortIndex - midPoint] = toSort[sortIndex];
+        }
+
+        left = sortListMerge(left);
+        right = sortListMerge(right);
+
+        Double[] result = merge(left, right);
+        return result;
+    }
+
+    /** Method intended to merge left and right after they have been sorted and return the full, sorted array. 
+     * @param left
+     * @param right
+     * @return
+     */
+    public Double[] merge(Double[] left, Double[] right)
+    {
+        Double[] sortedArray = new Double[left.length + right.length];
+        int leftIndex = 0, rightIndex = 0, sortedIndex = 0;
+        
+        while (leftIndex < left.length && rightIndex < right.length) {
+            if (left[leftIndex] <= right[rightIndex]) {
+                sortedArray[sortedIndex] = left[leftIndex];
+                leftIndex++;
+            } else {
+                    sortedArray[sortedIndex] = right[rightIndex];
+                rightIndex++;
+            }
+            sortedIndex++;
+        }
+
+        while (leftIndex < left.length) {
+            sortedArray[sortedIndex] = left[leftIndex];
+            leftIndex++;
+            sortedIndex++;
+        }
+
+        while (rightIndex < right.length) {
+            sortedArray[sortedIndex] = right[rightIndex];
+            rightIndex++;
+            sortedIndex++;
+        }
+
+        return sortedArray;
+    }
+
+    public double maxNumber(Double[] list)
+    {
+        double max = Double.MIN_VALUE;
+        for (int listIndex = 0; listIndex < list.length; listIndex++)
+        {
+            if (list[listIndex] > max)
+            {
+                max = list[listIndex];
+            }
+        }
+        return max;
+    }
+
     @Override
     public double mean(LinkedList<Double> data) 
     {
@@ -698,18 +866,14 @@ public String generateString(int length)
     @Override
     public double mode(LinkedList<Double> data) {
         // Hashmap stores the data point as the key and its frequency as its value.
-        HashMap<Double, Double> frequencyList = new HashMap<Double, Double>();
+        HashMap<Double, Integer> frequencyList = new HashMap<Double, Integer>();
 
-        for (int dataIndex = 0; dataIndex < data.size(); dataIndex++)
-        {
-            double thisData = data.get(dataIndex);
-            frequencyList.put(thisData, frequencyList.getOrDefault(thisData, 0.0) + 1.0);
-        }
+        frequencyList = numsAndFrequencies(data);
 
         double maxFrequency = Double.MIN_VALUE;
         double mode = Double.MIN_VALUE;
 
-        for (HashMap.Entry<Double, Double> entry : frequencyList.entrySet())
+        for (HashMap.Entry<Double, Integer> entry : frequencyList.entrySet())
         {
             double value = entry.getKey();
             double freq = entry.getValue();
@@ -724,6 +888,24 @@ public String generateString(int length)
             return mode;
         }
         else return -1;
+    }
+
+    /** Method intended to create a hashmap with the key being an element in a list and the value being the frequency.
+     * @param <E>
+     * @param data
+     * @return hashmap 
+     */ 
+    public <E> HashMap<E, Integer> numsAndFrequencies(LinkedList<E> data)
+    {
+        // Hashmap stores the data point as the key and its frequency as its value.
+        HashMap<E, Integer> frequencyList = new HashMap<E, Integer>();
+
+        for (int dataIndex = 0; dataIndex < data.size(); dataIndex++)
+        {
+            E thisData = data.get(dataIndex);
+            frequencyList.put(thisData, frequencyList.getOrDefault(thisData, 0) + 1);
+        }
+        return frequencyList;
     }
 
     @Override

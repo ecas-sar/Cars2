@@ -105,7 +105,7 @@ public class Vehicle {
 
     /**
      * Method intended to return data after a certain fault was given up to the
-     * @paramater passed in.
+     * paramater passed in.
      * @param a: int
      * @return: Arraylist of fault IDs that happened after a fault up to a certain
      * index.
