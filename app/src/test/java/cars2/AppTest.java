@@ -6,6 +6,12 @@ package cars2;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.io.IOException;
+import java.lang.reflect.Array;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 
 class AppTest {
@@ -52,6 +58,12 @@ class AppTest {
             Double[] sortedList = m.sortListMerge(toSort);
             Double[] expectedList = {54.0, 84.0, 343.0, 480.0, 612.0, 703.0}; 
             assertArrayEquals(sortedList, expectedList, "They are not equal");
+            Truck truck = new Truck("Truck", "RTERWERREE", "factory1", 1903, "ModelS", new ArrayList<String>(), false, 9.887766, 3.27867);
+            SUV suv = new SUV("SUV", "RTERWERREF", "factory1", 1903, "ModelS", new ArrayList<String>(), false, 7, 5);
+            ArrayList<Vehicle> vList = new ArrayList<Vehicle>();
+            vList.add(truck);
+            vList.add(suv);
+            m.addObject(vList, "TestArchive", Vehicle.class);
         } catch (Exception e) {
             // TODO Auto-generated catch block
             // e.printStackTrace();

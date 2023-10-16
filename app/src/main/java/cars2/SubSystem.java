@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class SubSystem {
 
     private String subID;
-
     private String subSystemName;
     private ArrayList<String> faultsInThisSubSystem;
 

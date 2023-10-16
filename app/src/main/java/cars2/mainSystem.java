@@ -14,6 +14,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.util.Map.Entry;
 
 
@@ -46,6 +50,8 @@ public class mainSystem implements dataAndStats {
      */
     public mainSystem() throws Exception {
         l = new ListCreator();
+
+        // setUpSerialiser();
 
         ArrayList<Vehicle> v = createVehList(20);
         addObject(v, "VehicleArchive", Vehicle.class);
@@ -130,6 +136,18 @@ public class mainSystem implements dataAndStats {
         // White box testing to check if sampling method was working properly.
     }
 
+    public void setUpSerialiser()
+    {
+        RuntimeTypeAdapterFactory<Vehicle> runtimeTypeAdapterFactory = RuntimeTypeAdapterFactory
+                .of(Vehicle.class, "vehicleType")
+                .registerSubtype(Truck.class, "Truck")
+                .registerSubtype(SUV.class, "SUV");
+
+                Gson gson = new GsonBuilder()
+                .registerTypeAdapterFactory(runtimeTypeAdapterFactory)
+                .create();
+    }
+
     /**
      * Method intended to sort vehicle types into correct list.
      * @param a: none
@@ -139,25 +157,24 @@ public class mainSystem implements dataAndStats {
     {
         for (Entry<String, Vehicle> entry: vehicleCollection.entrySet())
         {
-            String vehicleType = entry.getValue().getVehicleType();
-            String vehicleID = entry.getValue().getVehicleID();
-            String factory = entry.getValue().getFactory();
-            int yearOfManufacture = entry.getValue().getYearOfManufacture();
-            String model = entry.getValue().getModel();
-            ArrayList<String> f = entry.getValue().getFaultHistory();
-            boolean active = entry.getValue().getActive();
+            Vehicle currentVehicle = entry.getValue();
+            String vehicleType = currentVehicle.getVehicleType();
+            String vehicleID = currentVehicle.getVehicleID();
 
             if (vehicleType.equals("SUV"))
             {
-                SUVCollection.put(vehicleID, new SUV(vehicleType, vehicleID, factory, yearOfManufacture, model, f, active));
+                SUV suv = createSUV(currentVehicle);
+                SUVCollection.put(vehicleID, suv);
             }
             else if(vehicleType.equals("Truck"))
             {
-                truckCollection.put(vehicleID, new Truck(vehicleType, vehicleID, factory, yearOfManufacture, model, f, active));
+                Truck truck = createTruck(currentVehicle);
+                truckCollection.put(vehicleID, truck);
             }
             else if(vehicleType.equals("Van"))
             {
-                vanCollection.put(vehicleID, new Van(vehicleType, vehicleID, factory, yearOfManufacture, model, f, active));
+                Van van = createVan(currentVehicle);
+                vanCollection.put(vehicleID, van);
             }
         }
     }
@@ -171,24 +188,24 @@ public class mainSystem implements dataAndStats {
     {
         for(Entry<String, Fault> entry: faultCollection.entrySet())
         {
-            String faultType = entry.getValue().getFaultType();
-            String faultID = entry.getValue().getFaultID();
-            String subSystem = entry.getValue().getSubSystemName();
-            String timeStarted = entry.getValue().getTimeWindow().timeStarted();
-            String timeCleared = entry.getValue().getTimeWindow().timeCleared();
-            ArrayList<String> v = entry.getValue().getVehicles();
+            Fault currentFault = entry.getValue();
+            String faultType = currentFault.getFaultType();
+            String faultID = currentFault.getFaultID();
 
             if (faultType.equals("Mechanical"))
             {
-                mechFaultCollection.put(faultID, new Mechanical(faultType, faultID, subSystem, timeStarted, timeCleared, v));
+                Mechanical mech = createMechanical(currentFault); 
+                mechFaultCollection.put(faultID, mech);
             }
             else if (faultType.equals("Electrical"))
             {
-                electFaultCollection.put(faultID, new Electrical(faultType, faultID, subSystem, timeStarted, timeCleared, v));
+                Electrical elect = createElectrical(currentFault);
+                electFaultCollection.put(faultID, elect);
             }
             else if (faultType.equals("Software"))
             {
-                softFaultCollection.put(faultID, new Software(faultType, faultID, subSystem, timeStarted, timeCleared, v));
+                Software soft = createSoftware(currentFault);
+                softFaultCollection.put(faultID, soft);
             }
         }
     }
@@ -248,15 +265,15 @@ public class mainSystem implements dataAndStats {
         for (int assocIndex = 0; assocIndex < fauSub.size(); assocIndex++)
         {
            Association valAtIndex = fauSub.get(assocIndex); 
-           String SName = valAtIndex.getfirstID();
-           String FName = valAtIndex.getsecondID();
-           SubSystem s = subSystemCollection.get(valAtIndex.getfirstID());
-           Fault f = faultCollection.get(valAtIndex.getsecondID());
+           String FName = valAtIndex.getfirstID();
+           String SName = valAtIndex.getsecondID();
+           Fault f = faultCollection.get(FName);
+           SubSystem s = subSystemCollection.get(SName);
            // To prevent run-time error of if it tries to access one of these methods from a null object.
            if (s != null && f != null)
            {
                 s.getFaultsInThisSubSystem().add(FName);
-                f.setSubSystemName(SName);
+                f.setSubSystemName(s.getSubSystemName());
            }
         }
     }
@@ -294,12 +311,15 @@ public ArrayList<Vehicle> createVehList(int lengthOfList)
  */
 public Vehicle createVehicle()
 {
-    String[] vehicleType = {"SUV", "Truck", "Van"};
-    String[] factory = {"factory1", "factory2", "factory3"};
-    String[] model = {"modelS", "modelX", "modelK"};
-    int typeIndex = (int)(Math.random()*vehicleType.length - 0.1);
-    int factoryIndex = (int)(Math.random()*factory.length - 0.1);
-    int modelIndex = (int)(Math.random()*model.length - 0.1);
+    String[] vehicleTypes = {"SUV", "Truck", "Van"};
+    String[] factories = {"factory1", "factory2", "factory3"};
+    String[] models = {"modelS", "modelX", "modelK"};
+    int typeIndex = (int)(Math.random()*vehicleTypes.length - 0.1);
+    int factoryIndex = (int)(Math.random()*factories.length - 0.1);
+    int modelIndex = (int)(Math.random()*models.length - 0.1);
+    String vehicleType = vehicleTypes[typeIndex];
+    String factory = factories[factoryIndex];
+    String model = models[modelIndex];
     String vehicleID = null;
     int yearOfManufacture = (int)(1970 + Math.random()*53);
     boolean active = true;
@@ -309,8 +329,45 @@ public Vehicle createVehicle()
     vehicleID = generateString(vinLength);
 
     // the vehicle type, factory, and model are taken from an array of 3 and the index is randomly decided. This is done to prevent many if statements to save processing power.
-    Vehicle v = new Vehicle(vehicleType[typeIndex], vehicleID, factory[factoryIndex], yearOfManufacture, model[modelIndex], new ArrayList<String>(), active);
+    Vehicle v = new Vehicle(vehicleType, vehicleID, factory, yearOfManufacture, model, new ArrayList<String>(), active);
     return v;
+}
+
+/** Method intended to randomly generate data specific to an SUV given the Vehicle v.
+ * @param v
+ * @return SUV
+ */
+public SUV createSUV(Vehicle v)
+{
+    int numSeats = (int) (Math.random()*7 + 1);
+    int averageNumPassengers = (int) (Math.random()*7 + 1);
+    SUV suv = new SUV(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getActive(), numSeats, averageNumPassengers);
+    return suv; 
+}
+
+/** Method intended to randomly generate data specific to a Truck given the Vehile v.
+ * @param v
+ * @return Truck
+ */
+public Truck createTruck(Vehicle v)
+{
+    double maxMassInBack = Math.random()*15;
+    double averageMassPerDay = Math.random()*15;
+    Truck truck = new Truck(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getActive(), maxMassInBack, averageMassPerDay);
+    return truck;
+}
+
+/** Method intended to randomly generate data specific to a Van given the Vehicle v.
+ * @param v
+ * @return Van
+ */
+public Van createVan(Vehicle v)
+{
+    double maxCargoMass = Math.random()*50;
+    double averageCargoPerDay = Math.random()*50;
+    double storageVolume = Math.random()*60;
+    Van van = new Van(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getActive(), maxCargoMass, averageCargoPerDay, storageVolume);
+    return van;
 }
 
 /** Method intended to create a list of randomly generated faults at a length dictated by the coder.
@@ -335,11 +392,59 @@ public Fault createFault()
     int finLength = 14;
     String[] faultTypes = {"Mechanical", "Electrical", "Software"};
     int typeIndex = (int)(Math.random()*faultTypes.length - 0.1);
+    String faultType = faultTypes[typeIndex];
     String faultID = generateString(finLength);
     String timeStarted = createTime();
     String timeEnded = createTime();
-    Fault f = new Fault(faultTypes[typeIndex], faultID, "", timeStarted, timeEnded, new ArrayList<String>());
+    Fault f = new Fault(faultType, faultID, "", timeStarted, timeEnded, new ArrayList<String>());
     return f;
+}
+
+/** Method intended to randomly generate data specific to mechanical faults given the Fault f.
+ * @param f
+ * @return A mechanical fault
+ */
+public Mechanical createMechanical(Fault f)
+{
+    String systemName = generateString((int) (Math.random()*8));
+    int partNumber = (int) (Math.random()*15);
+    String[] failureTypes = {"Abrasion", "Corrosion", "Shock loading", "Creep", "Fatigue"};
+    int failureIndex = (int) (Math.random()*failureTypes.length - 0.1);
+    String failureType = failureTypes[failureIndex];
+    Mechanical mech = new Mechanical(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), systemName, partNumber, failureType);
+    return mech;
+}
+
+/** Method intended to randomly generate data specific to electrical faults given the fault f.
+ * @param f
+ * @return An electrical fault
+ */
+public Electrical createElectrical(Fault f)
+{
+    int modulePartNumber = (int) (Math.random()*15);
+    int numModulesAffected = (int) (Math.random()*15);
+    String DBCForOBT = generateString(10);
+    Electrical elect = new Electrical(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), modulePartNumber, numModulesAffected, DBCForOBT);
+    return elect;
+}
+
+/** Method intended to randomly generate data specific to software faults given the fault f.
+ * @param f
+ * @return A software fault.
+ */
+public Software createSoftware(Fault f)
+{
+    boolean runTime = false;
+    boolean majorOrMinor = false;
+    if (((int) (Math.random()*2)) == 1)
+    {
+        runTime = true;
+        majorOrMinor = true;
+    } 
+    int numLinesInClass = (int) (Math.random()*1500);
+    String severity = generateString(9);
+    Software soft = new Software(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), runTime, numLinesInClass, majorOrMinor, severity);
+    return soft;
 }
 
 /** Method intended to randomly generate a time in day:month:year hour:minute format.
@@ -437,7 +542,7 @@ public <E, T> ArrayList<Association> createAssocList(HashMap<String, E> giverMap
 
     int giverIndex = 0;
     int targetIndex = 0;
-    while (giverIndex < shuffledGiverArray.length || targetIndex < shuffledTargetArray.length)
+    while (giverIndex < shuffledGiverArray.length && targetIndex < shuffledTargetArray.length)
     {
         String fid = shuffledGiverArray[giverIndex];
         String sid = shuffledTargetArray[targetIndex];
@@ -653,92 +758,8 @@ public String generateString(int length)
         return methodName.startsWith("get") && !methodName.equals("getClass") && method.getParameterCount() == 0;
     }
 
-    /** Method intended to perform a sort any given list from the least to most. This will have statements that decide, depending
-     * on list length, whether to use a radix or a merge sort. There is also an option to either return it as an array or a list,
-     * as this function will be required to sort arrays and lists. 
-     * @param <E>
-     * @param toSort
-     * @return a sorted list
-     */
-    public LinkedList<Double> sortList(LinkedList<Double> toSortList)
-    {
-        Object[] toSortObj = toSortList.toArray();
-        Double[] toSort = Arrays.copyOf(toSortObj, toSortObj.length, Double[].class);
-        Double[] sortedArray = new Double[toSort.length];
-        if (toSortList.size() <= 30)
-        {
-            sortedArray = sortListRadix(toSort);
-        }
-        else
-        {
-            sortedArray = sortListMerge(toSort);
-        }
-
-        List<Double> sortedList = Arrays.asList(sortedArray);
-        LinkedList<Double> sortedLinkedList = new LinkedList<Double>(sortedList);
-        return sortedLinkedList;
-    }
-
-    /** Method intended to perform a radix sort on any given list. This will be used for small lists,
-     * as an O(n) search is the most efficient for those. 
-     * @param <E>
-     * @param toSort
-     * @return a sorted list
-     */
-    public Double[] sortListRadix(Double[] toSort)
-    {
-        double maxInList = maxNumber(toSort);
-        int numDigitsInMax = Double.toString(maxInList).length();
-        int placeValue = 10;
-        Double[] sortedList = new Double[toSort.length];
-        while (numDigitsInMax -- > 0)
-        {
-            sortedList = applySort(toSort, placeValue);
-            placeValue *= 10; 
-        }
-
-        return sortedList;
-    }
-
-    /** Method intended to apply a variation of the counting sort on a linked list. This is 
-     * part of the above radix sort, and it is in a seperate method for code readability and reusability.
-     * 
-     * @param toSort
-     * @param placeValue
-     */
-    public Double[] applySort(Double[] toSort, int placeValue)
-    {
-        int range = 10;
-
-        Double[] sortedArray = new Double[toSort.length];
-
-        int[] frequencies = new int[range];
-
-        // calculate the frequency of digits
-        for (int i = 0; i < toSort.length; i++) 
-        {
-            int digit = (int) ((toSort[i] / placeValue) % range);
-            frequencies[digit]++;
-        }
-
-
-        for (int freqIndex = 1; freqIndex < range; freqIndex++)
-        {
-            frequencies[freqIndex] += frequencies[freqIndex - 1];
-        }
-
-        for (int i = toSort.length - 1; i >= 0; i--) 
-        {
-            int digit = (int) (toSort[i] / placeValue) % range;
-            sortedArray[frequencies[digit] - 1] = toSort[i];
-            frequencies[digit]--;
-        }
-
-        return sortedArray;
-    }
-
-    /** Method intended to perform a merge sort on any given list. This will be used for larger lists,
-     * as an O(nlog(n)) search is the most efficient for those. 
+    /** Method intended to perform a merge sort on any given list. This will be used for all lists,
+     * as an O(nlog(n)) search is the most efficient sorting method, especially given how big the will be. 
      * @param <E>
      * @param toSort
      * @return a sorted list

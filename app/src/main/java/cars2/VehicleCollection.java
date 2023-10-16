@@ -12,7 +12,7 @@ public class VehicleCollection {
      * @return Nothing, just prepares object for use. 
      */
     public VehicleCollection(ListCreator l) {
-        v = l.createList("VehicleArchive", Vehicle.class);
+        v = l.createList("TestArchive", Vehicle.class);
         vehicleCollection = createCollection(v);
     }
 

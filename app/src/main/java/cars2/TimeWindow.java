@@ -21,7 +21,7 @@ public class TimeWindow {
      * @param a: None
      * @return: String
      */
-    public String timeStarted() {
+    public String getTimeStarted() {
         return timeStarted;
     }
 
@@ -30,7 +30,7 @@ public class TimeWindow {
      * @param a: None
      * @return: String
      */
-    public String timeCleared() {
+    public String getTimeCleared() {
         return timeCleared;
     }
 }

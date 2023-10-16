@@ -1198,5 +1198,3005 @@
       "timeCleared": "4:10:2006 3:31"
     },
     "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "MVZFTTIOSTEMDF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:3:2000 19:56",
+      "timeCleared": "8:10:2008 9:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GYWJZMHVUZSFCZ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:3:1994 9:4",
+      "timeCleared": "23:3:1982 16:29"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "YLUTROSNDIQEUI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:11:2004 1:16",
+      "timeCleared": "12:6:1981 4:48"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "YBHLXKMAAGDRBX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "27:10:1972 16:26",
+      "timeCleared": "25:5:1994 13:27"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NVIILQTRRGRDBG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "17:6:1980 8:53",
+      "timeCleared": "19:4:2010 18:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "LOIGMGZOCHMSSM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:4:1986 9:36",
+      "timeCleared": "14:2:2009 1:53"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "POKIXUJHGNUSAC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:8:1977 6:39",
+      "timeCleared": "17:2:2014 13:41"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "HEBBOVYXYSYWIX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:4:2001 19:39",
+      "timeCleared": "23:1:1998 3:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ZBRASGVTMOPEYD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:6:2004 23:3",
+      "timeCleared": "22:1:2012 1:37"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "RODRKJDCZSRLAL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:10:2016 12:52",
+      "timeCleared": "16:10:2017 12:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "YYIOXYCEUMRSZZ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:1:2011 2:48",
+      "timeCleared": "19:11:1988 15:10"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "RROPVLFQULNJFY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:11:1980 15:39",
+      "timeCleared": "11:4:1988 21:1"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ATQVCATUVHWOPS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "30:7:2011 21:6",
+      "timeCleared": "10:4:1987 5:38"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "DLEBLZCUEJRIFW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:3:1996 21:58",
+      "timeCleared": "14:1:1991 0:11"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "DJTBXYZNVIOHRX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:5:1988 1:38",
+      "timeCleared": "15:11:2007 19:23"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "OGRKFSWKAYBDPF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:8:1976 19:31",
+      "timeCleared": "24:4:2003 4:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "LFALVCIWHYPFJG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:4:2009 2:45",
+      "timeCleared": "18:4:1996 14:14"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "MMMPRVNZLDPMNA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:4:1985 19:50",
+      "timeCleared": "19:7:1997 16:14"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "VSBSUKXRCXEQCS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:7:1970 10:24",
+      "timeCleared": "11:4:1978 22:34"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "VOIGWVFUGTOMMM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "28:8:1997 8:29",
+      "timeCleared": "18:2:2001 9:47"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "DQOMACYOYXRMTU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:4:2012 23:31",
+      "timeCleared": "9:10:1996 0:43"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "AOQDTSIKPIZGYX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "12:10:1985 8:5",
+      "timeCleared": "4:10:2001 12:57"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "LABEQHUGPEQUST",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:8:1989 19:57",
+      "timeCleared": "2:11:2016 10:57"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "KBBFSIMEMBLODB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:11:1978 14:13",
+      "timeCleared": "26:2:2022 12:51"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "SGHTYURLNFTUIO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:11:1982 6:41",
+      "timeCleared": "14:3:1971 5:11"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "CVZKWZAMWXUEKS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:8:2015 21:13",
+      "timeCleared": "18:11:2002 4:8"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "HUFYDSRGHSMVZS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:6:1988 20:59",
+      "timeCleared": "26:8:1973 5:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "VPCDOYIWGZIFRT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:5:1977 14:11",
+      "timeCleared": "25:8:1972 13:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "AYVGZIOOMHUHOH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:11:1980 11:17",
+      "timeCleared": "24:6:2018 20:56"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "JHCYNPCNBTRKCS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:6:2006 22:33",
+      "timeCleared": "29:11:1978 20:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "FWDAJAOHUYIEIL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:2:1991 15:29",
+      "timeCleared": "1:7:2011 7:11"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "YIRXJTRJGNXQTV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:7:1992 5:17",
+      "timeCleared": "2:1:1993 23:37"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "PFYIHOJQUUYLXA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:9:1972 9:58",
+      "timeCleared": "8:10:2001 5:4"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "WFQFJBGECQYRRQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:2:1999 23:30",
+      "timeCleared": "25:9:1983 6:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "DULXPOBGTNRNXX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:1:1989 22:31",
+      "timeCleared": "28:8:1981 20:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "QYMELRVWEVPAJD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "29:7:1980 8:31",
+      "timeCleared": "29:7:1983 2:6"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "QFLPCULBDQXSRS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:11:1992 14:53",
+      "timeCleared": "28:8:1977 10:32"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ACCIVLGIXGEWKJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:4:2009 18:23",
+      "timeCleared": "26:8:1981 21:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JSXDEGDTXTTVGT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:10:2012 21:28",
+      "timeCleared": "9:5:2014 18:40"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "DXUXGFFKETQMTN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:9:2015 13:10",
+      "timeCleared": "8:2:1987 22:33"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "RSGUPGQBCCBWJQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:9:1984 1:34",
+      "timeCleared": "13:4:2018 3:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "XNEEGWMEANRCEA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:3:1990 6:24",
+      "timeCleared": "23:9:1975 21:49"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "BFUEZEOMAPTNWA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:2:1983 16:20",
+      "timeCleared": "27:2:1989 1:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "MDAKTKSOVGUNCQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "27:10:1999 22:18",
+      "timeCleared": "19:1:1983 9:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "HJJXLEWMZKXMUJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:7:2009 10:44",
+      "timeCleared": "24:7:2007 5:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "QYMNGSPAUYHLTH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "29:10:2021 21:30",
+      "timeCleared": "7:4:1983 11:36"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "OTNDKKWXBJQOKY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:1:1984 18:50",
+      "timeCleared": "11:7:1976 15:41"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "DALAQNQPKLSZOV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:9:2017 18:16",
+      "timeCleared": "2:2:1988 4:24"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "UGTXMCBJKFLVSX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:10:2006 21:54",
+      "timeCleared": "14:4:1974 15:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "AUVEPOUVWLNLZN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:11:1997 22:47",
+      "timeCleared": "23:11:1996 8:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "GWAHNDPEBTSWUX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:4:1984 18:39",
+      "timeCleared": "28:1:2007 22:41"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "TUMQWIKRMVAMVN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "17:10:2005 9:29",
+      "timeCleared": "26:11:2003 1:58"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "AESIADSZLGSVDH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:5:1979 22:21",
+      "timeCleared": "18:7:2005 11:17"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "WBGZLFDUJIONRH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:9:2006 16:56",
+      "timeCleared": "22:6:2017 15:27"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "LPTNLPGKZYHGQT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:2:2006 21:20",
+      "timeCleared": "24:8:1970 21:2"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "BMCJLEJSXHOYTF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:6:1978 2:48",
+      "timeCleared": "6:1:1971 1:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "YAHRYAZYFJRHZW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:7:1979 11:17",
+      "timeCleared": "27:10:2007 6:26"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "ZEWAEVJEVQBSLS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:9:1986 18:24",
+      "timeCleared": "23:4:2011 18:49"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "KDRTSQHJADUXYG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "12:5:2008 13:59",
+      "timeCleared": "28:1:1987 8:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "QIBWYTLAUDQRFV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:6:2019 22:38",
+      "timeCleared": "13:5:2016 14:47"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "MWISIPCWITDCNH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:11:1985 7:44",
+      "timeCleared": "23:8:1998 22:40"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "ARYJGPVSIZTXQM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:1:2004 11:40",
+      "timeCleared": "11:2:1984 15:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "ESXWDMOOMSYAPG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:9:1989 18:42",
+      "timeCleared": "10:7:2005 15:58"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "BEDPSGJAJQCQLR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:4:2017 5:52",
+      "timeCleared": "16:6:1993 13:31"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "BMEWLKMBBSAUPY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:9:1973 21:25",
+      "timeCleared": "4:4:1996 15:8"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NJFKKVLQLPLRME",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:7:1988 3:13",
+      "timeCleared": "25:11:2014 4:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "CODOCVRDDQMJGF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:7:2013 19:33",
+      "timeCleared": "13:7:2008 12:10"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GFQKYKQCATNHRJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:3:1993 13:35",
+      "timeCleared": "14:4:2001 4:27"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "LTFOKOVSNATPEP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:10:1996 11:47",
+      "timeCleared": "22:11:1999 1:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JLRENVIMIYMGWJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:8:1974 9:49",
+      "timeCleared": "8:10:1971 19:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "REUHWGKZHELWAG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:6:2004 0:32",
+      "timeCleared": "2:8:1993 13:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "QPBLZTBJALFQOL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:6:1997 23:2",
+      "timeCleared": "24:5:1989 13:13"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "XLNEYFFVVCOCDT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:11:2004 8:44",
+      "timeCleared": "4:8:2016 10:57"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "BZPUONXJKWNQVF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:9:2013 2:52",
+      "timeCleared": "14:4:1983 5:55"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "CPPNVKECOCZKCW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "27:9:1991 6:25",
+      "timeCleared": "29:6:2004 17:22"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "CUWYCOEWNLPADJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:2:1998 6:14",
+      "timeCleared": "24:8:1981 10:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "AEVBJEJCMRTFMB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "22:10:2010 8:39",
+      "timeCleared": "11:2:1972 15:43"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "UKFYCZYPXQYLBV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:10:1992 23:31",
+      "timeCleared": "17:9:2003 6:4"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "PLBYOFUTYUSOKO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:3:2012 18:51",
+      "timeCleared": "30:5:1988 10:34"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "ACZJFNPXJPIBVO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "17:9:1970 23:17",
+      "timeCleared": "13:3:2020 8:0"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "CFTQVDVYDBQCMS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:4:1985 5:41",
+      "timeCleared": "19:11:2007 2:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "VXRIHIPXZQZXQX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:9:1982 19:9",
+      "timeCleared": "5:10:2017 15:14"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "CVKXKPECFAVFNE",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:7:2013 8:50",
+      "timeCleared": "2:8:2003 15:47"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "CBSYHNLECNWTLR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:9:1987 4:21",
+      "timeCleared": "13:8:1990 0:47"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "FVPNOPZVECORBA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:5:1989 21:22",
+      "timeCleared": "22:3:1979 22:29"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JIJKQRIWOTPGRA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:1:1990 3:32",
+      "timeCleared": "23:1:2016 9:28"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "VASUMZQGUTDZHU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "12:9:1977 5:35",
+      "timeCleared": "14:8:1978 1:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "EYMEOPOHKWYSBC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:9:2004 11:48",
+      "timeCleared": "22:1:2012 10:36"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GCOHXMSRECQLUK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:5:1974 16:41",
+      "timeCleared": "26:3:2002 6:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "EFAVCOYCXDVWYW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:11:2003 1:51",
+      "timeCleared": "1:10:1987 18:58"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "GATKQFZYAIZCRZ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "28:8:2000 14:3",
+      "timeCleared": "10:1:2020 20:56"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "SVERZICZALNAQB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:10:2021 23:8",
+      "timeCleared": "25:5:2017 3:13"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "FBXDBJSAOCHTOM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:6:1977 13:58",
+      "timeCleared": "3:1:1984 10:51"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "VQGIPUPKRELOUF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "28:1:1993 13:33",
+      "timeCleared": "6:3:1976 7:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "KMHZLSYZUFJWLD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:4:1971 6:46",
+      "timeCleared": "17:10:1997 3:34"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JIFWGJVRGJPANL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:10:1996 15:35",
+      "timeCleared": "14:5:2017 4:5"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "KIEYKAEVHAFHAG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:2:2007 4:0",
+      "timeCleared": "28:7:1974 7:28"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "KLBQHOJFWGBRES",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:7:1982 5:21",
+      "timeCleared": "23:8:1982 20:41"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "WXIYQVTEYOXUHE",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:1:1975 9:26",
+      "timeCleared": "1:11:1997 2:9"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "UYXHWXXFCLTEBC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:11:2003 12:31",
+      "timeCleared": "19:6:2000 18:51"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "QFUVWGKBIYFCRQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:6:1976 10:6",
+      "timeCleared": "22:4:2016 16:5"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "HRPTZBKZKGHDYX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:5:1971 0:1",
+      "timeCleared": "6:8:1991 10:43"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "TZGBGBJHBIIIJT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:9:1980 7:36",
+      "timeCleared": "4:10:1974 7:5"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "OUQDBNAEVAXZJP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:8:2017 17:33",
+      "timeCleared": "28:5:2003 12:4"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "YKXXGSXINZPUOH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:10:2007 8:52",
+      "timeCleared": "14:1:1980 2:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "PXOQFHYSGSWEYE",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:8:1996 11:36",
+      "timeCleared": "16:9:1979 4:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "LGRMMQCBVVSCWL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:10:2012 0:52",
+      "timeCleared": "8:3:1970 2:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "CUSEJGRZDOZFDF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:7:1983 18:20",
+      "timeCleared": "3:2:1992 3:40"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "UBMPRBSRZYWOTQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:5:1971 21:13",
+      "timeCleared": "20:3:2022 16:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "YYEVXZJIVVDGGW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:7:2013 20:8",
+      "timeCleared": "1:7:1983 20:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "XMZWTARSGKJSPS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:3:1972 2:57",
+      "timeCleared": "18:4:1975 8:37"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "FSMWUUAWPKEHNE",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:2:1999 14:51",
+      "timeCleared": "21:7:1980 6:48"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "CCBTSTLLLGPRNY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "22:9:1999 9:8",
+      "timeCleared": "9:10:2007 16:53"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "XVEDRFWAZQIAUG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:5:1979 14:10",
+      "timeCleared": "5:2:1998 13:6"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "NCKFVFJNFJONIB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:8:1994 3:21",
+      "timeCleared": "28:1:1979 15:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "YEFPWLOCEENLWZ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "30:1:1978 2:51",
+      "timeCleared": "21:9:2001 1:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "WQYWKVGICTPBQG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:2:1990 17:24",
+      "timeCleared": "1:6:2006 2:27"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "PXFNYDHYUJCYTP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:9:1992 19:42",
+      "timeCleared": "23:10:2007 23:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "OWLQZTOMIFLOAB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:8:1975 18:16",
+      "timeCleared": "27:3:2007 18:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "DJYWMSFXWKCUHP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:10:1982 21:27",
+      "timeCleared": "12:9:2003 21:43"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "WDEXEGCMBOPSWA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "22:1:2009 7:1",
+      "timeCleared": "19:2:1970 11:4"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "RROTRYMVRBODUN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:5:1974 9:54",
+      "timeCleared": "19:7:1993 9:0"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "KEJIMPNOOFKMDS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:3:2005 14:50",
+      "timeCleared": "19:2:1972 3:31"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "MORQHUCBCAJMQF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:4:1972 17:58",
+      "timeCleared": "1:9:2020 16:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JENVOVHLKZHLUR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:10:1999 10:12",
+      "timeCleared": "8:9:2020 16:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "AJOLRCXLUPPTBK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:9:2003 23:19",
+      "timeCleared": "3:5:1984 2:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "MJHAPMXHVQMHOW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:4:2000 12:32",
+      "timeCleared": "5:3:2008 3:4"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "NMEPPORERBBENZ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:4:1991 8:21",
+      "timeCleared": "6:5:1971 0:11"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "GOCAHDFMNGATUI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:7:2013 6:9",
+      "timeCleared": "14:7:2015 3:46"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "JVWNNEEAVYBJTS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:8:1995 6:7",
+      "timeCleared": "6:1:2002 5:5"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "NYVPISULLLTECD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:11:1974 6:16",
+      "timeCleared": "29:10:1983 22:26"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "VNBEJLZDQNPISU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:7:1971 21:22",
+      "timeCleared": "9:6:2003 10:32"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "STZDVTQZNRRXAY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:3:1994 11:52",
+      "timeCleared": "2:8:1976 2:13"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "WNKRIKFWBGUFTW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:8:2005 0:35",
+      "timeCleared": "21:7:2016 12:35"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "FSVPJEVHNKBMCG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:3:2007 22:55",
+      "timeCleared": "1:8:2003 21:28"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "HDFJMYIXGHGPAK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:5:1973 9:35",
+      "timeCleared": "25:4:1979 18:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JFINQDAICCNRSR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:11:1997 13:20",
+      "timeCleared": "14:1:2001 15:58"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "OQZNDVSPPEPNEU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "22:7:1972 16:42",
+      "timeCleared": "10:9:2005 3:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "RITUZINMDKDDJK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "17:10:2016 19:58",
+      "timeCleared": "12:6:2014 12:40"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "NDZWREKCLSUTIB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:1:1975 3:52",
+      "timeCleared": "27:8:1986 4:10"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "NBDUUPUGJHEPSJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:9:1974 16:7",
+      "timeCleared": "1:8:2022 7:8"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GLQXFKTLHLMXUY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:3:1971 13:21",
+      "timeCleared": "21:9:1998 17:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "VMEJBYGIMMUMYU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "29:4:2022 12:10",
+      "timeCleared": "14:3:2012 19:54"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "BOFRGWNFVKDDMJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "30:9:1970 7:26",
+      "timeCleared": "20:9:2022 2:55"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "SVQVNHLYOVEROL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:11:2004 15:33",
+      "timeCleared": "6:1:2013 18:56"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "INKSXSHRURYHYX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:6:2020 3:29",
+      "timeCleared": "17:10:1983 23:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NCDVHQSUEKQWPY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:3:1974 13:12",
+      "timeCleared": "11:9:1993 17:6"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "CDXNGBWZHYBAXO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:9:1978 9:0",
+      "timeCleared": "10:1:1994 5:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "LIPKRTVKJATEIA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:10:1984 8:45",
+      "timeCleared": "22:4:1983 6:31"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "PASWBSDRUFZSJS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:3:2019 6:31",
+      "timeCleared": "23:11:1979 15:54"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "DYESZKZGADTNGC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "28:11:1971 9:52",
+      "timeCleared": "3:9:1992 22:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NEOHONUFQIACEE",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:7:2017 22:6",
+      "timeCleared": "4:2:1977 18:31"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "GCMCQCNFUGSUSO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:4:2013 10:45",
+      "timeCleared": "21:3:1989 20:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "SEMOTAIAJOXDXF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "22:11:1970 16:57",
+      "timeCleared": "28:9:2005 23:31"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "YOLIKQAQYITEEX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:2:1988 21:20",
+      "timeCleared": "6:1:1979 8:31"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "DYQFWYHYZVNPXN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:7:2016 12:40",
+      "timeCleared": "24:4:2008 7:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "QEEBKQTUKGXJDR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:2:1978 2:16",
+      "timeCleared": "1:6:1983 17:10"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "NCLSKQHXCCGXCH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:1:1995 9:11",
+      "timeCleared": "23:5:1988 16:32"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GCMAICMVIZLBRX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:1:1994 6:16",
+      "timeCleared": "26:9:1971 2:26"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "TUREKJTUGQPTLV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:8:2009 14:53",
+      "timeCleared": "2:5:2005 1:1"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "PAYEKWDRUZPDEL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:6:1994 8:21",
+      "timeCleared": "4:9:1995 7:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "FLQFCAPMYHOSDM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:9:2006 10:1",
+      "timeCleared": "17:1:1986 12:32"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NDGCZZEBMHRIIH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:11:1986 16:56",
+      "timeCleared": "13:10:1975 1:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ZHAXLVBKQGTGLA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:2:1999 10:5",
+      "timeCleared": "19:1:1975 23:5"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "AUESURJFGYPLVT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:8:1970 0:39",
+      "timeCleared": "25:9:2021 20:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "XTTZBOSNSAZTCO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "29:9:1977 9:58",
+      "timeCleared": "26:7:2003 16:53"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "LXHXLWDFHJEFBP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:3:1973 4:32",
+      "timeCleared": "3:5:2004 22:9"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "SWXYUPAGNISJYQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:7:1997 4:35",
+      "timeCleared": "26:10:2007 2:11"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "ZEXTBPNKFZPTUK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:2:1978 23:35",
+      "timeCleared": "19:5:2014 16:39"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "FYYTSFEXHIHZKC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:6:2014 7:38",
+      "timeCleared": "6:8:1988 4:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "XERHUGHFNOJAUS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:1:2019 0:20",
+      "timeCleared": "13:8:1990 16:18"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "UPDDTIEWBADTBN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:8:2015 16:12",
+      "timeCleared": "28:9:1971 11:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "MJOSQPTYATPXVL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:9:2012 11:17",
+      "timeCleared": "26:6:1995 17:23"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "KPZBCZCSMVKQLL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:11:1979 18:20",
+      "timeCleared": "26:2:1988 4:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "AGRJTRWJRTNIZV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:7:2018 22:34",
+      "timeCleared": "4:7:2011 18:46"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "CHILWCTNNBVBWP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:3:2012 14:21",
+      "timeCleared": "15:7:2010 17:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JZNLNZGQOZBXNI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:6:1998 1:50",
+      "timeCleared": "22:6:1985 11:43"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "COHZEUVGFCUPVD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "16:2:2002 22:46",
+      "timeCleared": "15:7:2001 23:48"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "NTIQUVADXCGOHY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:9:1980 23:2",
+      "timeCleared": "4:1:1979 14:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "DGTIOOKDYCODAS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:3:1997 18:51",
+      "timeCleared": "17:10:2019 4:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "RFIIXVZSKTOCRW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:7:2004 18:54",
+      "timeCleared": "6:10:1978 21:36"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "IPOOJJANIRRAIC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:7:2018 2:44",
+      "timeCleared": "29:1:1982 9:37"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "DEMCKMKBBOKWKL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:11:2014 21:6",
+      "timeCleared": "23:7:2020 19:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "JQYKHOPJPIBUET",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:6:1990 13:10",
+      "timeCleared": "16:10:1973 20:47"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "XXODFGVJOJZAOH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:8:1983 19:58",
+      "timeCleared": "28:6:1993 5:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "TQFFICKUTZWITV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:7:1970 16:39",
+      "timeCleared": "12:3:1982 0:48"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "XKRQDFBFPXZQRV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:8:1982 7:44",
+      "timeCleared": "11:7:2006 21:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "FMBWOTJNONFLOM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:11:1978 18:10",
+      "timeCleared": "4:8:2014 2:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "CBDCNDQWTJFXYF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:3:1973 1:33",
+      "timeCleared": "10:8:2000 13:24"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "YLQUISHZISBCUJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:1:1972 15:54",
+      "timeCleared": "9:11:1990 6:56"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "JXQOBUUTMNLMQO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:1:2016 20:46",
+      "timeCleared": "28:6:1972 20:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "TMNBDHUBCORWDJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:3:1983 0:5",
+      "timeCleared": "4:3:1975 16:24"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JQDLNRMZHKRTDI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:3:2017 16:37",
+      "timeCleared": "10:1:1995 7:18"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "DTJHJPPDDPFQBQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:8:1994 3:25",
+      "timeCleared": "29:6:2017 23:36"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "HMTGHWGVHWIGDP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:11:2016 4:32",
+      "timeCleared": "22:8:2006 10:29"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "CRCGDXMREPRZKU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:8:2012 23:19",
+      "timeCleared": "9:7:1982 10:59"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "HLBLUPZCARQILX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:1:2001 1:36",
+      "timeCleared": "20:11:2007 14:35"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "YPMDJQDELMFHJV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:3:2015 21:12",
+      "timeCleared": "25:3:1978 1:5"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "JXTELAEEODBBEQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:3:2018 2:34",
+      "timeCleared": "6:7:2012 2:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "TKHQBXOBWLUQLA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:9:1972 4:0",
+      "timeCleared": "11:4:2013 20:41"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "LWVZSKVPVDVJQQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:11:1980 21:0",
+      "timeCleared": "5:7:2022 3:44"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "FMTCRFDNMOYAIP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1:9:1984 6:32",
+      "timeCleared": "14:3:1995 12:49"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "HXFGSOBLPFVYAT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:6:2008 11:17",
+      "timeCleared": "18:10:2006 7:55"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "ZGYVXLYCWVYHWP",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:1:1985 22:20",
+      "timeCleared": "28:6:2004 23:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "VFTBMCKDNGCPMU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "28:5:2017 4:15",
+      "timeCleared": "8:4:1984 17:42"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "IDHXHVNZYVBGCT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:3:1991 22:2",
+      "timeCleared": "28:8:1992 23:5"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "FGMXWULHYONTTY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:11:2005 3:34",
+      "timeCleared": "13:7:2003 6:38"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GJHIKGPWTGWJTV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:6:2013 22:7",
+      "timeCleared": "14:3:1983 12:1"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ZOURQXWSXTEKTG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "27:5:1994 17:45",
+      "timeCleared": "22:7:1971 9:10"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "LHJVTNOVSETTIK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "12:1:1985 1:19",
+      "timeCleared": "24:1:1979 9:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "QUSMSVYPBYXSPU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "22:10:1971 3:9",
+      "timeCleared": "13:1:2020 16:13"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "DEVFYYWJAMIIFA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:6:2000 4:18",
+      "timeCleared": "23:7:1988 4:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NCPHDJBFDENODQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "29:8:1997 1:46",
+      "timeCleared": "28:5:1989 3:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "UPGRPJDKDFWZQM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:6:2014 6:28",
+      "timeCleared": "25:3:1983 2:6"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "SAWAGPYQKXLQYU",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:4:1981 21:47",
+      "timeCleared": "20:2:2012 8:54"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NMJYYGJIEETTNI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:8:2001 9:57",
+      "timeCleared": "22:1:1972 7:14"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "QDTNDNNHSRBEXB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "22:6:1971 14:45",
+      "timeCleared": "29:1:1991 7:7"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "KTKIEMJIUKXWJH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:8:1993 17:4",
+      "timeCleared": "28:11:2016 1:17"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "FAAWJRYRDXCVHR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:5:1974 0:32",
+      "timeCleared": "26:10:1994 11:42"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "KHBPURBPFUVFNI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "28:3:1970 3:29",
+      "timeCleared": "8:11:1991 22:17"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "WNVFVILHSGGKLM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:5:1979 21:7",
+      "timeCleared": "10:4:1978 22:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "FTKWWRDXMOOHGO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:10:2019 12:4",
+      "timeCleared": "4:7:1986 16:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "WHWLDQMKLLMBEM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:8:1979 20:15",
+      "timeCleared": "17:11:2012 14:47"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "FAFLSVMGTOYZHI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:9:2001 19:7",
+      "timeCleared": "30:11:2015 6:56"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "WCMXNRKOKXTEVE",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:3:1997 0:54",
+      "timeCleared": "30:3:1976 0:53"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ZSWBSRRMHWFDPI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "12:4:1975 14:4",
+      "timeCleared": "12:5:2002 16:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "QQGAJFRSFINWVW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:10:2001 11:35",
+      "timeCleared": "4:1:2005 12:13"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "EOAOSEBBWJALCN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:7:1970 14:35",
+      "timeCleared": "9:6:2016 14:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "EGDZSGBRZGFMBT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:9:1981 13:27",
+      "timeCleared": "13:6:2018 13:37"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "KENQNDBKEJQNLO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:4:1979 0:9",
+      "timeCleared": "12:4:2004 4:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "APCIRWWNXFHQXO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:3:1973 21:24",
+      "timeCleared": "28:10:1983 6:23"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "TTCRGWSYNIOZYC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:9:2021 13:57",
+      "timeCleared": "7:8:1997 8:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "IUYVUBRYRHIRMR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:2:1998 15:23",
+      "timeCleared": "26:6:2004 8:34"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "WRRMALLPLSHICK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:11:2005 22:13",
+      "timeCleared": "25:4:1981 9:8"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "NFGZGBDFBWFSGM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "27:6:1995 14:2",
+      "timeCleared": "4:7:2022 3:18"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "IXTXGFYISIMGAC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "14:5:1985 19:7",
+      "timeCleared": "19:10:2009 9:8"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ZAMZSWKQPFPBCG",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:2:2001 5:22",
+      "timeCleared": "9:9:1975 2:56"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "CGMSITEBJTASVM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "9:6:1973 3:50",
+      "timeCleared": "17:5:2019 3:44"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "OYSCIMTMLUUBXB",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:6:2002 6:3",
+      "timeCleared": "23:2:1977 22:54"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "JJLYZLLMJZXHVN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:8:1995 11:58",
+      "timeCleared": "26:3:2012 10:22"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NPVZRGXZKQSCJS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:5:1977 14:12",
+      "timeCleared": "19:5:1988 16:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "FXCMPIFIJIKKAA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:9:2019 19:59",
+      "timeCleared": "5:5:2005 0:51"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "LWCRIFOVBOALPW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "6:11:1984 3:45",
+      "timeCleared": "13:10:1995 5:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "JNCMXONXVISEMF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "23:11:1982 23:10",
+      "timeCleared": "18:3:2016 2:8"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "MHJLWAHPGQCDVN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "12:6:2021 12:15",
+      "timeCleared": "18:2:1972 12:34"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "VVRVLMRYOHCGXR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:3:2021 14:36",
+      "timeCleared": "17:5:1977 18:43"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "VXOSKODLOGOIOX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:9:2002 13:25",
+      "timeCleared": "24:9:2010 4:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ZMBFSRHJWAYGVW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:1:1980 23:45",
+      "timeCleared": "9:4:1986 5:17"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "QBVWZVPXLMWBRD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:4:1987 20:16",
+      "timeCleared": "22:3:2001 17:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "OHPRBAZQGIUUMX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:10:2021 16:42",
+      "timeCleared": "19:2:2021 16:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GICNJBKROCIXGI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:1:2016 8:51",
+      "timeCleared": "26:4:1991 7:15"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "SRFIBKUNFVMZJX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:10:1984 7:14",
+      "timeCleared": "7:8:1981 14:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "XXMTNSCPCJCHQH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:10:1992 10:30",
+      "timeCleared": "28:5:1977 13:50"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NMOWGDIPFRULEW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:7:2019 14:41",
+      "timeCleared": "21:8:1999 12:9"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "IQATVAJBTTDVOX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:1:2003 8:16",
+      "timeCleared": "17:1:1995 7:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "TWORVSATJFYAJX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "27:6:2019 22:33",
+      "timeCleared": "29:8:1999 11:42"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "KLXNMWPFKXYCYT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:8:1999 20:48",
+      "timeCleared": "14:3:2014 19:24"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "AIKRSNCOGJBUON",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "12:4:2006 7:22",
+      "timeCleared": "6:3:2014 21:37"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "PHKWQEUELBBCOQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:4:1991 14:22",
+      "timeCleared": "23:8:1986 6:48"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "QOQENHMBAJJUPE",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "24:6:1986 8:5",
+      "timeCleared": "10:9:2006 8:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "QAEUWTWCUSAFTY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:3:2011 7:14",
+      "timeCleared": "18:10:2015 12:49"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "GOKAZLSSYJLWFK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "18:6:2010 5:0",
+      "timeCleared": "28:3:2002 22:45"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "YAXHBHXACDBJMY",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:8:2000 15:42",
+      "timeCleared": "8:1:1997 6:42"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "VAPKGQBQWMXJPA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:7:1995 2:16",
+      "timeCleared": "25:4:2019 21:25"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "KFDRPKQHOXYFLO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:3:1989 10:20",
+      "timeCleared": "7:5:1984 21:31"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "FZXTABTLZABQHV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:6:1972 20:7",
+      "timeCleared": "18:1:1973 13:11"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "XUIBSXZCMLINQM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:9:1972 21:46",
+      "timeCleared": "23:1:2011 9:47"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "AGJPVWPFWKPJKH",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "21:6:1989 16:0",
+      "timeCleared": "26:10:2002 4:33"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "JBKZJUXMTUCOEJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:6:1982 9:17",
+      "timeCleared": "15:1:1971 21:16"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "SFCSWXROXAXGSS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "17:5:2000 4:40",
+      "timeCleared": "19:6:1999 14:2"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "BKIEPCQKYZSBIR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:3:1984 15:7",
+      "timeCleared": "7:10:2019 3:3"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "ATYBWWZJPPWVRL",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "29:3:1997 7:23",
+      "timeCleared": "11:7:2000 19:0"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "PASCVZRPVYOCKV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:2:1977 22:49",
+      "timeCleared": "28:1:1978 21:53"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "JJPWVCBNCKSZUC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "30:9:1980 3:59",
+      "timeCleared": "12:5:2014 21:39"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "XDQDMRCKCSJYAI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:1:1986 14:24",
+      "timeCleared": "4:1:2005 12:38"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "RRVHOJLEFVBRYS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "3:2:2003 2:44",
+      "timeCleared": "6:7:1998 13:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "SWTNIBWJGAZGXM",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:3:2004 7:20",
+      "timeCleared": "24:7:1980 9:10"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "PELLMTJBXPBSQR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:6:1983 5:54",
+      "timeCleared": "12:2:1997 1:28"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "CWWZAUPJSOXUET",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "17:11:2007 8:26",
+      "timeCleared": "28:2:1972 4:18"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "NEPYDPVPUWZITS",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:7:1973 0:23",
+      "timeCleared": "25:5:1989 5:7"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "GMGTADIJOVHCQR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:4:2015 2:3",
+      "timeCleared": "19:10:1985 5:30"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "SFXEDBILTNLUJZ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "5:2:1996 6:28",
+      "timeCleared": "29:7:1992 3:8"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "QDSUDGBSCPCYPD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "11:3:2003 2:14",
+      "timeCleared": "26:5:2017 1:38"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "WIGMWFOIWPUHRW",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:6:2015 6:37",
+      "timeCleared": "16:7:1981 4:19"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "MXJSAMVATYRMXO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "7:4:1975 3:47",
+      "timeCleared": "10:8:1975 21:49"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "ZZFYGDUNPLIHMQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "4:4:2005 11:46",
+      "timeCleared": "12:9:1975 10:38"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "MRZAFIZYZYBXUF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:1:2016 4:5",
+      "timeCleared": "2:4:2000 19:35"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "VDGKXEYWQJMVEV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:3:2004 5:14",
+      "timeCleared": "17:6:2012 15:20"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "EABRFUQQXBNWPC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "27:10:2014 1:20",
+      "timeCleared": "10:3:1984 5:38"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "YVJJIKBHLWYVZQ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "8:5:2010 3:22",
+      "timeCleared": "7:2:1995 3:49"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "XUBOXVWYADUGUO",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "13:2:2005 16:25",
+      "timeCleared": "11:8:1985 6:53"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "AHTKKMCPUPPNNR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "15:3:1998 0:46",
+      "timeCleared": "24:1:1974 8:29"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "TSKOSSLYQWLNZX",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "20:6:2006 1:52",
+      "timeCleared": "24:2:1978 23:7"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "SNFRQDGGLSOJPT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "10:8:2004 11:18",
+      "timeCleared": "28:7:1974 7:2"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "BVOYMDZNYMUJNF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "30:11:1986 14:48",
+      "timeCleared": "25:4:1973 9:39"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "CRYAZYOSGGQOBA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "25:11:2015 6:17",
+      "timeCleared": "14:7:2000 23:21"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "SEYMFIDQAYUKYC",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "26:5:1990 21:5",
+      "timeCleared": "21:10:1982 19:12"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Software",
+    "faultID": "FBEXEYQUYDYGTT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2:11:2009 3:14",
+      "timeCleared": "23:7:1991 11:28"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Mechanical",
+    "faultID": "AQXNDVTCXZYJUV",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "19:1:1999 22:35",
+      "timeCleared": "7:11:1995 7:37"
+    },
+    "vehicles": []
+  },
+  {
+    "faultType": "Electrical",
+    "faultID": "NAANNCVWURKTAI",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "28:5:1999 1:32",
+      "timeCleared": "28:8:2001 1:15"
+    },
+    "vehicles": []
   }
 ]

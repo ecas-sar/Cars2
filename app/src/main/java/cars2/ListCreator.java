@@ -26,10 +26,19 @@ public class ListCreator {
      */
     public ListCreator()
     {
-        basePath = "//Users//cassar.eddie.l//backup/Documents//IB CS HL//Cars2//Archives//";
-        builder = new GsonBuilder();
-        builder.setPrettyPrinting();
-        gson = builder.create();
+        basePath = "//Users//cassar.eddie.l//github//Cars2//Archives//";
+        //builder = new GsonBuilder();
+        //builder.setPrettyPrinting();
+        //gson = builder.create();
+        RuntimeTypeAdapterFactory<Vehicle> runtimeTypeAdapterFactory = RuntimeTypeAdapterFactory
+                .of(Vehicle.class, "vehicleType", true)
+                .registerSubtype(Truck.class, "Truck")
+                .registerSubtype(SUV.class, "SUV")
+                .registerSubtype(Van.class, "Van");
+
+                gson = new GsonBuilder().setPrettyPrinting()
+                .registerTypeAdapterFactory(runtimeTypeAdapterFactory)
+                .create();
     }
 
     /**
@@ -73,7 +82,7 @@ public class ListCreator {
             ArrayList<T> jsonArr = createList(nameOfArchive, clazz);
 
             // If statement ensures that any given list will never get so big that the computer runs out of storage.
-            if (jsonArr.size() <= 100)
+            if (jsonArr.size() <= 1000)
             {
                 jsonArr.addAll(objList);
 

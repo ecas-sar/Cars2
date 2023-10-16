@@ -11,8 +11,6 @@ public class App
         try 
         {
             mainSystem m = new mainSystem(); 
-            Double[] toSort = {54.0, 703.0, 612.0, 84.0, 343.0, 480.0};
-            Double[] sortedList = m.sortListRadix(toSort);
                   
         } catch (Exception e) 
         {

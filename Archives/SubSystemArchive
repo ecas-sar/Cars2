@@ -598,5 +598,1505 @@
     "subID": "HXFZWNRYGCGBZD",
     "subSystemName": "Speed camera",
     "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "IJFAAEVDFWQPIL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OVYSDTGGEEEQBM",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NFHXKGDPYUKVOJ",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UEDQGQYJFCGCAE",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ACIYMCOLAWBTBP",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VVQPQBOXRAWXIK",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SHKDJGSEHLVLTO",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YGZKXSSEYEFSNZ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XBMADBSGLGSGYE",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WFWULXFHVBHZON",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "CFTGADYBUWBHAA",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DUHMGJNEQQJOWK",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WTMPOXZZZFDLHS",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "CQZNGAWRIIPJRL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EMKNVXOBQUYFRJ",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XMNDVPEWYIAUTZ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NTCYVVBOPROMZM",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XNVNHBFDFHUAVL",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KHBKXMWMNUTBJK",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LVKDEVRKSWDRRY",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VXCBDITSITGJXV",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QDHIFOUVGHWXGV",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QRHIWPIRLAVFGR",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZSEDQWJBLOWXWX",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BWAFOLQIHKHXFM",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NVFQYGXGMAPTIY",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BEWTZDHQSVEHMM",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QSDOGVTELOUUIF",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JQRSCXZVCYZCJV",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZXMIWWVIXNOYPG",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GUSQFDAILWYNWG",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GKFKOWKGCXJWZR",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YSFUVDAWAJSBKQ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NODHEFJIPIZBSX",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KUOUAKMLLGFHTR",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ISBQIHSTYRSOQO",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MJFLQYHFIMRKSG",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NNMAQTFTIOBFMN",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OGSPZZUFKKFYMX",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NUGMWKAJBSQLCW",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BIYQTDXMSQCECB",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EHDDHYTCBZMPOB",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UUEYTCOKZNAKFE",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SCVECPUCHYLAUE",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NMCPYNUIUOZWTM",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JNPUHRQJTWSVNX",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PIAROFHXHWTCEZ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YMKSLJZCJQRCUF",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PDGPEVJSADXJKC",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YTVGHFNHZEZMEL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VFRCQDIYHGQMHW",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QWMXGWWEBPOHXD",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LFMIBLBLCBKVXX",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LPLIBTSPQCHIMZ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OQUYOJIAGJPQWQ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VWJZEOBOCLWHYL",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RJILSUFGYOWNUB",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YKAWBNQPVUKEGB",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ESDJOLTPMNFNQL",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OCLDKMILVIGHJS",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SILGYSKXIFFZJF",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PYMIGUOKUSIKTN",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "INHQAKRRZQDIKY",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "URQZDTRZEMPVRP",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LAMTXSVYBABRUL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EQVOWSJBTZWDIA",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "POXCTOFIWMAXOU",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BIROQONDTPOOER",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UCQEQGFCSIYSRG",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YEPJIVZPGOFKFS",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OZCQNVERGBCXVQ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GYWIPBKXULWING",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WXTGWTEZDSEHQQ",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QFDNVYAYLCGIRU",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JIOJQVOPAHKHBL",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JPRZBFYRDLGYVS",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OKNQUCZVKXDRBU",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZGPZNGXKFOENRH",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OWMQMUWRDORLCK",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MRCNKULQFYIZVY",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YKEGNIQYPRZEMO",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QVMURIHLRDAGAO",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "IPLAPHIFSZUTDR",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZHIBEFTRWTADKD",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MCPDMXLCOLCZFQ",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UNPBOVHGXWLKLY",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HJJDLCQJKDGOXI",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VZEBTWWFAKKRNV",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OMULIZITRROKWM",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JPTDQAMHIWUACI",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SIHNFLKZFULDKE",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ICFYKRLQSRVTJW",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WVPHQSAPNEHAOG",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PKRLNCIQMXWPKQ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OIQTTCVNXRCJIW",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YTASFUJJWXOZGW",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MVPEREHYRETJVG",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "CJMEIWDXYDEEKB",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GXSAIOEOJJAKGY",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MKZWZBWVAQPOES",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NXRXTQFSGXFOEV",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GVEUZXHKDQQPOR",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TKZXSRUWSAABOJ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "CZKPCQERSVPWSS",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "AKXNWXSAETHGEM",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ATJEYOZOSBJYKQ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VEPQQGKTUHCQQL",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MHRSCNFOKXDINS",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GGXJGTMQDHHLAY",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RSMPDNNXZSWEIX",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "CUPWOYFDMPHQWY",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LNYLEAYRKFWYQW",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GLNZEULMYTOEIP",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XDUPIRDUKEGGPU",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XZDSIEYQRMUFYC",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RARYGZBJOCZINB",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YAXKCHGTMIJACS",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DSEMFHYAPJMYFO",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KMCMGWQYHNUFGO",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NBZYDNBBGGBWLY",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OZYRAZFOTGVRUW",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QUPHLUUBRZIUXI",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YPWQITJFILSGSE",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EHKJXNQSIOFWOL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NCWBRCIIIHRIAN",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DPJSLPHOWAWWRR",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TGVYMDFKXOAEUA",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YEAWQLNCIFNICI",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MWRCYIMYXFZSBE",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "AMHFXFPOIWMCDN",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GZOEHFSEPTFPWF",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KRHRZWUPKEHLFR",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GNYDILVNRVYMFT",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BRXIXYMGZMBEPA",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DXIUPWUBUWFBWD",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DTBSOURSZWGATO",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SDHUGMEPDDRDOC",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WUYLJHOAKGXROW",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MHHCKXEESHJQYN",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NNOHAXNAYISZGW",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ADPOXOETJIDRFD",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OZJMCJEPLDHUTQ",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HHELKLYOJQNABA",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JPJJVVSWMBWTDQ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XWQWUFCWCCUSPR",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UZLCANAQGSKMCD",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VXJKXVSKZIGYQF",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EUWGWQKPHIWOBJ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KYOAJNHSVWUDMX",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PJPUKXZYDKKRFH",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LJXSONJPAOAROK",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BPBPISBYLCTBDL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LFFWOTGTEODOSV",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YMGXSJCARENFPM",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "URAWTVEQFKWCMO",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "FYYEYBDCQVANIH",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JXPMZOJZDDFJFG",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TKOINEJBAVIJRL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SQLYTNFXWMRGJA",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PAQUBELPKQHGJG",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "FFXHGYCZYZMKPV",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KPQITCBQNBNNAT",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TASGFUYZASPTVN",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WXEOKYORNNJFNH",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UFXDOKFIBMFIRT",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OMLOADWJZXDZHR",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TIHHAJVMJGCNET",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ROSDNFLYWIOTJR",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LKWFPYOSQNZPZT",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZFHVZKLSPGRVIL",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZVRJWVVBISIIRZ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ECETVJKIGUOCPH",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LSTZLJKKYUHQJB",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SMHSRWKGJQCEQG",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GQQQQYMOITIXYE",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "GMXINGRKIPIOHO",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DJIKPXQJPYNLIC",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RSMRYRGCPUBWPJ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DGXAIKCOVCQDYV",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EZIKJSZPEQLWIE",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JZRGVQRNYNOAPR",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "AJNUIEPDEWJBDU",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BBMLQYOQFEMNSE",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KYMSOMTXOCYHSR",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PEYDGVLGWGJPVR",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DYMYVULSIBEVKR",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BPVNBOWDUPOQXY",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PYQTGLGBVLJAPP",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XWQGMPXEAWWEYN",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZYSZYXJGVHEHBM",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EXNFMHFWNIKCAW",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JMNUPLIEXIJUZY",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WWPIVPJPSRQBDA",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QPKXKZNRRJRIKW",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SOKUPOLDRISENH",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EUIUSRMGXFLWXW",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XRQVGQIRSXDOIU",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QLUUFDVPCZGYFR",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MVNUHIVQOZVNFS",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DOFQJLQCIMAUMV",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UWMTYPSQRFEJPZ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RGQCRTWUOFUCZP",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OKUJHVDOMAMDSC",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LJMDFCQPCWRZBL",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UZRSUCBHSADUGQ",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "IVENSEQUFXYAHP",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SYLWCXSXDEOUKJ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RETXHYNCKAVEGM",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DESWPGEKKLDZIA",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XGWBHWVVZQWBFS",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QMADSXESNOKHTN",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QQVKCKCQAWFXFQ",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YBVVRGIEJYUUWC",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZHWRHEZUCRQFOO",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OWCGMGEXIMLNWT",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PDNEXCTQWDCTHD",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VYOPVVIWOXOUXK",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "IDYBEBVOTHIIQN",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "IPVQACNXCIMXCI",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OVFSFFYNNSZGZT",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "FSMIBUMVZOFDEC",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "CBDCGLLHWUXJQQ",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RUVFVELERBOLYF",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LLIHTRMQSKHKUH",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HUALETVSVOVBIQ",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PJWHXYKLPLZKSN",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HYXAYSPTYHDNUS",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TBUFHPXSQRXCHV",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "OCCSXVQPTULBDR",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LFQJOEVCZRMMNB",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VGFXVWWUNSUXHL",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YVPBKPYPAQTJNG",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "CKTGLSIMPLSEIH",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RYACKSJWFCUKHT",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MZSCZRIYFUWJDK",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "POCRIGUZYFKKJT",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "COQELRJEPUBSQR",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZDDDRILTGLGZYC",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DDBMADOHADJKAH",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DUJGDJQRMSWFRA",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MFIKEPIBXMBXST",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HPOMOXSIAAIADQ",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "IKRSCTPYRTLMEG",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JEHOFMILLYSPJZ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PQEHVYDBEJNFLD",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "FUAMPAZCGPDJWG",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QUXAVVRARJHAJB",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZIPYZGQPLJQPCR",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ERWPKTYKLKTUKR",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "AWXJBKJKZLUEQH",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HTZOAQBVPEWEBZ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PUXOWLITWYBBQQ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZSEJPDHXMCQVFN",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HKLHUTNGUVHDSJ",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "MMGNDQDUJUCRQR",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "UHPNYINWVAGXVN",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "FNMAXZRPEDHIYX",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VUVPHYIWJCQTRQ",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WQKEEZAUEHDOLJ",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BRWLEUFEGZKDVU",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "EYUZDPTLJVRKPW",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XFPWBKFMXPREBW",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ATSYTMMTCLJFIY",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "KOOIOXNAEBNEDT",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RCORYXWPCOQHNS",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "NLFXFWJVWNLMCW",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TQQLQKPMOTDIBR",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BLTCEACELLUYFR",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LKPTKUFUMTEFKR",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "HRIVXOAJTGWVUL",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XOFDPAHNNKIPUJ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "FAQNKVMMZZDSOH",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LKMVGYPOQVAASB",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WHVHHQOWLHQECQ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "JDMEJFMHNNUUYA",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "XFBUXUIHIIMOMA",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TPDFICLIYUKWFY",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZOSTAAQZNFNVOW",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "IZOXNIMVCPIQMM",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DCYYTAUFTNPFIQ",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZBRZSNJWVWOFUY",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "VABWWVHXPCYFJC",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PZROKNTNDDHESJ",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QSEXDFBDKVJJJD",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "TIVPKOSYCHAXRI",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "SHOPODWNDKEJIG",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WRJDRPURLDZOGA",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "YFYUFACHHKJTRR",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ELEOIKZXXUPZEU",
+    "subSystemName": "Speed camera",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "ZGYJCSEYXLMZXG",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RKRWWYQRNEFPFA",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "PMKMSKKFPOYHGC",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WTJASWDEMHHIMF",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "QYLQWTDOVHGTXZ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "LJLFCRBWKNYKBR",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DPBUPRYHNBCCJF",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "WRARWSEGLBYFUJ",
+    "subSystemName": "Engine",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "RRJSDDEYNWKGPG",
+    "subSystemName": "Wheel",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "BERWTKSJSGJBYJ",
+    "subSystemName": "Battery",
+    "faultsInThisSubSystem": []
+  },
+  {
+    "subID": "DHRVYQVYICQAKO",
+    "subSystemName": "Headlights",
+    "faultsInThisSubSystem": []
   }
 ]
