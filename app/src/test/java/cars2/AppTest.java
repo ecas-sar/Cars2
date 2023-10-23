@@ -6,15 +6,15 @@ package cars2;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.io.IOException;
-import java.lang.reflect.Array;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.LinkedList;
 
 class AppTest {
+    @Test void testWholeProgram()
+    {
+
+    }
+
     @Test void appStats() {
         try {
             mainSystem m = new mainSystem();
@@ -58,16 +58,32 @@ class AppTest {
             Double[] sortedList = m.sortListMerge(toSort);
             Double[] expectedList = {54.0, 84.0, 343.0, 480.0, 612.0, 703.0}; 
             assertArrayEquals(sortedList, expectedList, "They are not equal");
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            // e.printStackTrace();
+            fail("failed to fetch mainSystem", e);
+        }
+    }
+
+    @Test void jsonSubTypes() 
+    {
+        try {
+            mainSystem m = new mainSystem();
             Truck truck = new Truck("Truck", "RTERWERREE", "factory1", 1903, "ModelS", new ArrayList<String>(), false, 9.887766, 3.27867);
             SUV suv = new SUV("SUV", "RTERWERREF", "factory1", 1903, "ModelS", new ArrayList<String>(), false, 7, 5);
             ArrayList<Vehicle> vList = new ArrayList<Vehicle>();
             vList.add(truck);
             vList.add(suv);
-            m.addObject(vList, "TestArchive", Vehicle.class);
+            m.addObject(vList, "TestVehicleArchive", Vehicle.class);
+            Mechanical mech = new Mechanical("Mechanical", "YRHEIFYEFGFH", "Wheel", "07:09:14", "09:09:14", new ArrayList<String>(), false, "Wheel", 2, "Shock Loading");
+            Electrical elect = new Electrical("Electrical", "EYERUEYRGWHRB", "Camera", "07:10:20", "09:13:20", new ArrayList<String>(), false, 3, 2, "ORTITRIE");
+            ArrayList<Fault> fList = new ArrayList<Fault>();
+            fList.add(mech);
+            fList.add(elect);
+            m.addObject(fList, "TestFaultArchive", Fault.class);
         } catch (Exception e) {
             // TODO Auto-generated catch block
-            // e.printStackTrace();
-            fail("failed to fetch mainSystem", e);
+            e.printStackTrace();
         }
     }
 }

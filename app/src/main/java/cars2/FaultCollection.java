@@ -13,6 +13,7 @@ public class FaultCollection
      * Output: Nothing, just prepares object for use. 
      */
     public FaultCollection(ListCreator l) {
+        // Deserialises contents of fault archive into a list.
         f = l.createList("FaultArchive", Fault.class);
         faultCollection = createCollection(f);
     }

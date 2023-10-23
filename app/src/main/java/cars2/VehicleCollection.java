@@ -12,7 +12,8 @@ public class VehicleCollection {
      * @return Nothing, just prepares object for use. 
      */
     public VehicleCollection(ListCreator l) {
-        v = l.createList("TestArchive", Vehicle.class);
+        // Deserialises contents of vehicle archive into a list.
+        v = l.createList("VehicleArchive", Vehicle.class);
         vehicleCollection = createCollection(v);
     }
 

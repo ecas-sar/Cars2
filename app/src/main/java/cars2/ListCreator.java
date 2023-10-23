@@ -27,17 +27,22 @@ public class ListCreator {
     public ListCreator()
     {
         basePath = "//Users//cassar.eddie.l//github//Cars2//Archives//";
-        //builder = new GsonBuilder();
-        //builder.setPrettyPrinting();
-        //gson = builder.create();
-        RuntimeTypeAdapterFactory<Vehicle> runtimeTypeAdapterFactory = RuntimeTypeAdapterFactory
-                .of(Vehicle.class, "vehicleType", true)
-                .registerSubtype(Truck.class, "Truck")
-                .registerSubtype(SUV.class, "SUV")
-                .registerSubtype(Van.class, "Van");
 
-                gson = new GsonBuilder().setPrettyPrinting()
-                .registerTypeAdapterFactory(runtimeTypeAdapterFactory)
+         RuntimeTypeAdapterFactory<Vehicle> vehicleRuntimeTypeAdapterFactory = RuntimeTypeAdapterFactory
+         .of(Vehicle.class, "vehicleType", true)
+         .registerSubtype(SUV.class, "SUV")
+         .registerSubtype(Truck.class, "Truck")
+         .registerSubtype(Van.class, "Van");
+
+         RuntimeTypeAdapterFactory<Fault> faultRuntimeTypeAdapterFactory = RuntimeTypeAdapterFactory
+         .of(Fault.class, "faultType", true)
+         .registerSubtype(Mechanical.class, "Mechanical")
+         .registerSubtype(Electrical.class, "Electrical")
+         .registerSubtype(Software.class, "Software");
+
+         gson = new GsonBuilder().setPrettyPrinting()
+                .registerTypeAdapterFactory(vehicleRuntimeTypeAdapterFactory)
+                .registerTypeAdapterFactory(faultRuntimeTypeAdapterFactory)
                 .create();
     }
 

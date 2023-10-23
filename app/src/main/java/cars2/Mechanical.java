@@ -15,8 +15,8 @@ private String failureType;
      * @param tc
      * @return: Nothing, constructor just prepares object for use.
      */
-    public Mechanical(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, String sn, int pn, String fty) {
-        super(ft, fid, s, ts, tc, v);
+    public Mechanical(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a, String sn, int pn, String fty) {
+        super(ft, fid, s, ts, tc, v, a);
         systemName = sn;
         partNumber = pn;
         failureType = fty;

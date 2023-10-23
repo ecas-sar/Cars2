@@ -1,0 +1,28 @@
+[
+  {
+    "systemName": "Wheel",
+    "partNumber": 2,
+    "failureType": "Shock Loading",
+    "faultType": "Mechanical",
+    "faultID": "YRHEIFYEFGFH",
+    "subSystemName": "Wheel",
+    "timeWindow": {
+      "timeStarted": "07:09:14",
+      "timeCleared": "09:09:14"
+    },
+    "vehicles": []
+  },
+  {
+    "modulePartNumber": 3,
+    "numModulesAffected": 2,
+    "DBCForOBT": "ORTITRIE",
+    "faultType": "Electrical",
+    "faultID": "EYERUEYRGWHRB",
+    "subSystemName": "Camera",
+    "timeWindow": {
+      "timeStarted": "07:10:20",
+      "timeCleared": "09:13:20"
+    },
+    "vehicles": []
+  }
+]

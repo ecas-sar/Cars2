@@ -1,556 +1,21 @@
 [
   {
+    "maxCargoMass": 15000.0,
+    "averageCargoPerDay": 23.80304360862759,
+    "storageVolume": 38.6962158028706,
     "vehicleType": "Van",
-    "vehicleID": "SFPNVVIYIDMJRS",
-    "factory": "factory2",
-    "yearOfManufacture": 1976,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "UDRTXVXPTOLSVX",
-    "factory": "factory1",
-    "yearOfManufacture": 1972,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "MNJFWIPQKZKBXG",
-    "factory": "factory1",
-    "yearOfManufacture": 1992,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "TALPZQSJAEWZTY",
-    "factory": "factory1",
-    "yearOfManufacture": 2016,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "IEZNCIZVYUWNFM",
-    "factory": "factory2",
-    "yearOfManufacture": 2009,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "WFBSBWYCHFTGXV",
-    "factory": "factory1",
-    "yearOfManufacture": 1998,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "OWOWGUPPUDJVIL",
-    "factory": "factory1",
-    "yearOfManufacture": 1977,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "RYQSDGISITKNVG",
-    "factory": "factory3",
-    "yearOfManufacture": 2004,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "GREPOAIFJLMJYF",
-    "factory": "factory2",
-    "yearOfManufacture": 1985,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "KMVWXBYPNEOFYI",
-    "factory": "factory3",
-    "yearOfManufacture": 1975,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "ZVPLLUEQVLNNYP",
-    "factory": "factory2",
-    "yearOfManufacture": 1982,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "FHNPALSDFBINGH",
-    "factory": "factory1",
-    "yearOfManufacture": 1994,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "GRWZZKNNXDFQEE",
-    "factory": "factory2",
-    "yearOfManufacture": 2001,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "BFVMCFNYXWJNEB",
-    "factory": "factory2",
-    "yearOfManufacture": 2001,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "MOGMPRCHCXFBQX",
-    "factory": "factory1",
-    "yearOfManufacture": 1981,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "OKWFDIXEEJZERQ",
-    "factory": "factory1",
-    "yearOfManufacture": 2016,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "TVWNKSCQGUBISR",
-    "factory": "factory1",
-    "yearOfManufacture": 1986,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "HWDUYITSIMAWJU",
-    "factory": "factory2",
-    "yearOfManufacture": 2005,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "FWYGDFYIAZENMT",
-    "factory": "factory1",
-    "yearOfManufacture": 1973,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "WPDSREIWUNHRCR",
-    "factory": "factory1",
-    "yearOfManufacture": 2013,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "SUMXWWRXJIOXAO",
-    "factory": "factory3",
-    "yearOfManufacture": 1981,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "AZHBNBPUXULZOG",
-    "factory": "factory3",
-    "yearOfManufacture": 1972,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "OQAUHCDDJGTTDT",
-    "factory": "factory2",
-    "yearOfManufacture": 1980,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "UMLARUNJVPHLUU",
-    "factory": "factory2",
-    "yearOfManufacture": 1986,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "CTCKHLCLMAJIGL",
-    "factory": "factory1",
-    "yearOfManufacture": 2006,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "LPEYZFZPPZEOAC",
-    "factory": "factory2",
-    "yearOfManufacture": 1994,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "XURMLKRXRADHRP",
-    "factory": "factory1",
-    "yearOfManufacture": 1994,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "BHAUOHMYITSRJR",
-    "factory": "factory1",
-    "yearOfManufacture": 1982,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "DQLHQFGXVPKCPM",
-    "factory": "factory3",
-    "yearOfManufacture": 2002,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "ZXYCXKGQICRGCS",
-    "factory": "factory3",
-    "yearOfManufacture": 1988,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "LBGUKTVBNAXSOR",
-    "factory": "factory1",
-    "yearOfManufacture": 1996,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "RIJQLWVWHZJJZB",
-    "factory": "factory2",
-    "yearOfManufacture": 2015,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "NTWFEYEHPWWERI",
-    "factory": "factory1",
-    "yearOfManufacture": 2017,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "NNYIWALRNFLQPD",
-    "factory": "factory1",
-    "yearOfManufacture": 1993,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "AUIZWEEKYFPQMW",
-    "factory": "factory1",
-    "yearOfManufacture": 2010,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "AKSRDBXAEUCCPU",
-    "factory": "factory2",
-    "yearOfManufacture": 1974,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "FUFOJREWRIIIMK",
-    "factory": "factory3",
-    "yearOfManufacture": 1974,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "DDWBYOGVMBJZAA",
-    "factory": "factory1",
-    "yearOfManufacture": 1980,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "BDWPKWCJZMZQBX",
-    "factory": "factory2",
-    "yearOfManufacture": 2017,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "CVFBBEUUXZNAJT",
-    "factory": "factory1",
-    "yearOfManufacture": 2018,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "OCCKTBANWCAWZZ",
-    "factory": "factory3",
-    "yearOfManufacture": 1994,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "OJIZJACQWIBOQF",
-    "factory": "factory3",
-    "yearOfManufacture": 1993,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "SCIICMLJISZPRV",
-    "factory": "factory3",
-    "yearOfManufacture": 1979,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "JPNKHBJIMBTHXJ",
-    "factory": "factory2",
-    "yearOfManufacture": 2016,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "CSGPTPUYRHAONM",
-    "factory": "factory2",
-    "yearOfManufacture": 2014,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "JDYUJTEXKFGDTQ",
-    "factory": "factory1",
-    "yearOfManufacture": 2011,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "QWLFHXDLIHZBJJ",
-    "factory": "factory2",
-    "yearOfManufacture": 2004,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "NWHABJLFKRNNTO",
-    "factory": "factory1",
-    "yearOfManufacture": 1978,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "XRZMGIPSKCFFMF",
-    "factory": "factory3",
-    "yearOfManufacture": 1998,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "QQJZJEEUIOMGTK",
-    "factory": "factory2",
-    "yearOfManufacture": 1988,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "JWBFACQAFJMKGD",
-    "factory": "factory3",
-    "yearOfManufacture": 1976,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "KZHEOQQZPTFRTH",
-    "factory": "factory2",
-    "yearOfManufacture": 1997,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "JHCPIZQRQAXUHD",
-    "factory": "factory3",
-    "yearOfManufacture": 1978,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "LOBVNYFOPPYKMO",
-    "factory": "factory2",
-    "yearOfManufacture": 2002,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "VWXTJVGEXRKDPR",
-    "factory": "factory1",
-    "yearOfManufacture": 2020,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "DJGTUADJYNYJKB",
-    "factory": "factory1",
-    "yearOfManufacture": 1972,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "QGGKBRVQHJJOML",
-    "factory": "factory2",
-    "yearOfManufacture": 1981,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "RJBVSHEUMTYTQA",
+    "vehicleID": "UQMOLMZLZKXGUE",
     "factory": "factory2",
     "yearOfManufacture": 2008,
-    "model": "modelS",
+    "model": "modelK",
     "faultHistory": [],
     "active": true
   },
   {
-    "vehicleType": "Truck",
-    "vehicleID": "AKQILFFSAPSAKO",
-    "factory": "factory2",
-    "yearOfManufacture": 2022,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "HUGJXUTNCEODGY",
-    "factory": "factory2",
-    "yearOfManufacture": 1986,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
+    "numSeats": 5,
+    "averageNumPassangers": 4,
     "vehicleType": "SUV",
-    "vehicleID": "LZEIBIQYSQUHFZ",
-    "factory": "factory2",
-    "yearOfManufacture": 1990,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "VIBIMKUWQFRBYX",
+    "vehicleID": "KUSVVQWRZGCNFW",
     "factory": "factory1",
     "yearOfManufacture": 2011,
     "model": "modelS",
@@ -558,830 +23,434 @@
     "active": true
   },
   {
+    "maxCargoMass": 15000.0,
+    "averageCargoPerDay": 45.33165801852191,
+    "storageVolume": 10.484533700507498,
+    "vehicleType": "Van",
+    "vehicleID": "OWHWRMNTWAACZT",
+    "factory": "factory2",
+    "yearOfManufacture": 1993,
+    "model": "modelS",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 34.35102733864012,
+    "storageVolume": 59.85419236136613,
+    "vehicleType": "Van",
+    "vehicleID": "JIPXMEGGJPGDMR",
+    "factory": "factory3",
+    "yearOfManufacture": 2012,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 50.0,
+    "averageMassPerDay": 2.3599760020344354,
     "vehicleType": "Truck",
-    "vehicleID": "PJUFFKMIPXVKUB",
-    "factory": "factory3",
-    "yearOfManufacture": 2015,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "NHBSIYAMMPPMSG",
-    "factory": "factory1",
-    "yearOfManufacture": 2020,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "QSNSQRHWJXYQWI",
-    "factory": "factory1",
-    "yearOfManufacture": 1998,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "DJBIOLTMZEVJMC",
-    "factory": "factory2",
-    "yearOfManufacture": 2019,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "OWSENOHDAVGSNS",
-    "factory": "factory1",
-    "yearOfManufacture": 2017,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "ZIZVUCSBSXZELI",
-    "factory": "factory1",
-    "yearOfManufacture": 1970,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "WGZTATMLBXKUKC",
-    "factory": "factory2",
-    "yearOfManufacture": 1990,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "GASRHPXLCMKBID",
-    "factory": "factory3",
-    "yearOfManufacture": 1999,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "JUXPYKYFTCHCFU",
-    "factory": "factory2",
-    "yearOfManufacture": 1990,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "DFLYBJPCODARHU",
-    "factory": "factory3",
-    "yearOfManufacture": 2007,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "ATFLAWALHLXBPR",
+    "vehicleID": "GOJCSIARTUUWQG",
     "factory": "factory3",
     "yearOfManufacture": 2004,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "ZJEMMREULNLKHS",
-    "factory": "factory3",
-    "yearOfManufacture": 1993,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "QSKWZIDAFLSITN",
-    "factory": "factory2",
-    "yearOfManufacture": 1974,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "UHQGRVNKPNIPDO",
-    "factory": "factory1",
-    "yearOfManufacture": 1992,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "XAAMLEPTMCGPTF",
-    "factory": "factory2",
-    "yearOfManufacture": 1978,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "PTXAHROSQZIVEN",
-    "factory": "factory3",
-    "yearOfManufacture": 1979,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "JFQPCKCQTAPDNX",
-    "factory": "factory2",
-    "yearOfManufacture": 1970,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "MDKWWPOUNJFRRX",
-    "factory": "factory1",
-    "yearOfManufacture": 2005,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "NBOODQSWWWKUOJ",
-    "factory": "factory1",
-    "yearOfManufacture": 1986,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "FSTETTBISOQGWJ",
-    "factory": "factory3",
-    "yearOfManufacture": 1978,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "LLERVEYGRIOMCK",
-    "factory": "factory3",
-    "yearOfManufacture": 1993,
     "model": "modelX",
     "faultHistory": [],
     "active": true
   },
   {
-    "vehicleType": "Truck",
-    "vehicleID": "PCRWIVZNVUYGJU",
-    "factory": "factory2",
-    "yearOfManufacture": 1974,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "UDAEYBBTBHQOBA",
-    "factory": "factory1",
-    "yearOfManufacture": 1997,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
+    "numSeats": 7,
+    "averageNumPassangers": 6,
     "vehicleType": "SUV",
-    "vehicleID": "XANBHSNBRHZYCW",
+    "vehicleID": "EDUUVBZZNLDEWK",
+    "factory": "factory3",
+    "yearOfManufacture": 1980,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 7,
+    "averageNumPassangers": 2,
+    "vehicleType": "SUV",
+    "vehicleID": "QCQDMUCAUYWNBT",
+    "factory": "factory1",
+    "yearOfManufacture": 1991,
+    "model": "modelS",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 5,
+    "averageNumPassangers": 6,
+    "vehicleType": "SUV",
+    "vehicleID": "YSKNCKNZTCAIYP",
+    "factory": "factory1",
+    "yearOfManufacture": 1986,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 50.0,
+    "averageMassPerDay": 1.9229798888758571,
+    "vehicleType": "Truck",
+    "vehicleID": "HEUVXDUNYLVQOK",
+    "factory": "factory3",
+    "yearOfManufacture": 2004,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 48.047284647603234,
+    "storageVolume": 56.43670808504103,
+    "vehicleType": "Van",
+    "vehicleID": "FIACVAZCFZKOQR",
     "factory": "factory2",
     "yearOfManufacture": 2006,
-    "model": "modelS",
+    "model": "modelK",
     "faultHistory": [],
     "active": true
   },
   {
+    "numSeats": 5,
+    "averageNumPassangers": 4,
     "vehicleType": "SUV",
-    "vehicleID": "QTVHONGEBPAUAM",
-    "factory": "factory3",
-    "yearOfManufacture": 1992,
-    "model": "modelS",
+    "vehicleID": "CUVETDXOYQASUD",
+    "factory": "factory1",
+    "yearOfManufacture": 1971,
+    "model": "modelK",
     "faultHistory": [],
     "active": true
   },
   {
+    "maxMassInBack": 50.0,
+    "averageMassPerDay": 14.238174119879407,
     "vehicleType": "Truck",
-    "vehicleID": "PJBCUGVCBPYJVB",
-    "factory": "factory2",
-    "yearOfManufacture": 2014,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "BFMDSZLKNOGQHA",
-    "factory": "factory3",
-    "yearOfManufacture": 1989,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "GGLBFADTXOPVRQ",
+    "vehicleID": "GKKHVXZUHHZSWF",
     "factory": "factory1",
-    "yearOfManufacture": 1987,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "DMUHLRFWJMNUAS",
-    "factory": "factory1",
-    "yearOfManufacture": 1987,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "DQXVEGRDJJAASF",
-    "factory": "factory2",
-    "yearOfManufacture": 2020,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "EOTUHNFAKJJFRN",
-    "factory": "factory1",
-    "yearOfManufacture": 1990,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "BWLQCLYDRFFPWM",
-    "factory": "factory3",
-    "yearOfManufacture": 2000,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "TIQEWGWSORSNVW",
-    "factory": "factory1",
-    "yearOfManufacture": 1986,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "TIOWVRNKWGRFUG",
-    "factory": "factory3",
-    "yearOfManufacture": 1974,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "CGRBFNLIFSJUFT",
-    "factory": "factory1",
-    "yearOfManufacture": 1995,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "VTSYYVRSRALZHD",
-    "factory": "factory2",
-    "yearOfManufacture": 1983,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "HUBOBTLPNSHGLW",
-    "factory": "factory2",
-    "yearOfManufacture": 2022,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "WPBJZILDQGVZIM",
-    "factory": "factory3",
-    "yearOfManufacture": 1985,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "QCNFSEKMYGRLUA",
-    "factory": "factory1",
-    "yearOfManufacture": 1979,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "DCEBHTCRBDJJQS",
-    "factory": "factory2",
-    "yearOfManufacture": 1981,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "NJGYLYEYCTAROI",
-    "factory": "factory2",
-    "yearOfManufacture": 1984,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "ESFCKRESNQAAOY",
-    "factory": "factory2",
-    "yearOfManufacture": 1989,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "DKHDIWKYCSLWAQ",
-    "factory": "factory2",
-    "yearOfManufacture": 1973,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "LFAAYLQCSKOEEN",
-    "factory": "factory3",
-    "yearOfManufacture": 2018,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "SBNJSJJHQWHWKN",
-    "factory": "factory3",
-    "yearOfManufacture": 2018,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "IUEEGPSANMDAMU",
-    "factory": "factory2",
-    "yearOfManufacture": 2020,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "SJXSGWFACTOGOV",
-    "factory": "factory1",
-    "yearOfManufacture": 2018,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "HMGCRFJEZPCPMJ",
-    "factory": "factory2",
-    "yearOfManufacture": 1993,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "CBAXJVHSAJJGRC",
-    "factory": "factory2",
     "yearOfManufacture": 1988,
     "model": "modelK",
     "faultHistory": [],
     "active": true
   },
   {
+    "maxMassInBack": 50.0,
+    "averageMassPerDay": 5.356737006465942,
     "vehicleType": "Truck",
-    "vehicleID": "YCMKPSKPLDMYOX",
-    "factory": "factory1",
-    "yearOfManufacture": 2014,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "EBOYBDCUFANOOB",
-    "factory": "factory1",
-    "yearOfManufacture": 2010,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "RQBFEJCMMQLVWS",
-    "factory": "factory1",
-    "yearOfManufacture": 1986,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "XYWUQVOEDGNEWQ",
-    "factory": "factory2",
-    "yearOfManufacture": 2022,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "SBPXZMTPCVVVKH",
-    "factory": "factory3",
-    "yearOfManufacture": 1991,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "VZOTMAMAMIKREP",
-    "factory": "factory1",
-    "yearOfManufacture": 1984,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "LOMLICEZWECFEZ",
+    "vehicleID": "QZNGBGTZBODWDP",
     "factory": "factory1",
     "yearOfManufacture": 1997,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "XJDJLOTSPRTEXO",
-    "factory": "factory2",
-    "yearOfManufacture": 2000,
     "model": "modelS",
     "faultHistory": [],
     "active": true
   },
   {
-    "vehicleType": "SUV",
-    "vehicleID": "TZIIBAMYVNGCUP",
-    "factory": "factory3",
-    "yearOfManufacture": 2018,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 18.317113473870002,
+    "storageVolume": 24.57244963607583,
     "vehicleType": "Van",
-    "vehicleID": "SCEBZHKTCXAHUM",
-    "factory": "factory1",
-    "yearOfManufacture": 2003,
-    "model": "modelS",
+    "vehicleID": "TXBIQYDOAQVRCD",
+    "factory": "factory2",
+    "yearOfManufacture": 1971,
+    "model": "modelX",
     "faultHistory": [],
     "active": true
   },
   {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 9.603584666829573,
+    "storageVolume": 7.837553775669677,
     "vehicleType": "Van",
-    "vehicleID": "LIDXEYDTUKOHFM",
-    "factory": "factory3",
-    "yearOfManufacture": 2010,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "BWTBUXIEPBZJVF",
-    "factory": "factory2",
-    "yearOfManufacture": 1989,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "GVFTFRQYLHFAAL",
-    "factory": "factory2",
-    "yearOfManufacture": 1990,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "XCJWXBONMKTHOZ",
-    "factory": "factory3",
-    "yearOfManufacture": 1980,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "HHWSSCBJRDCXQY",
-    "factory": "factory3",
-    "yearOfManufacture": 2000,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "FRZDOFNONFNUSP",
-    "factory": "factory3",
-    "yearOfManufacture": 2011,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "KYAOUDSJOYPNKV",
-    "factory": "factory3",
-    "yearOfManufacture": 2001,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "LKKBBHZTZMAASD",
-    "factory": "factory2",
-    "yearOfManufacture": 1998,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "VKGTKZHFUANBCO",
-    "factory": "factory3",
-    "yearOfManufacture": 2014,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "IUVGOSFLDQQKME",
-    "factory": "factory2",
-    "yearOfManufacture": 1997,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "DVIZPRQDBJWAOZ",
-    "factory": "factory2",
-    "yearOfManufacture": 1993,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "NUAXRSAKTTONXR",
-    "factory": "factory2",
-    "yearOfManufacture": 1997,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "MNEJRYNZWMPGIF",
+    "vehicleID": "BRWKBBTBOMJTFR",
     "factory": "factory1",
-    "yearOfManufacture": 1973,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "YTCUNNYONYLNIU",
-    "factory": "factory1",
-    "yearOfManufacture": 2019,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "CKTZDEJFHEGYEG",
-    "factory": "factory1",
-    "yearOfManufacture": 1987,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "BLRROBDYHGPOIA",
-    "factory": "factory2",
-    "yearOfManufacture": 2006,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "OEHSOXHNZAZNIS",
-    "factory": "factory2",
-    "yearOfManufacture": 2005,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "WVVRDXISMJNMHZ",
-    "factory": "factory3",
-    "yearOfManufacture": 2000,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "NYQMAXJHMWVSWE",
-    "factory": "factory3",
-    "yearOfManufacture": 2003,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "XWOILFSCERYCWP",
-    "factory": "factory2",
-    "yearOfManufacture": 1992,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "UJGPCMHVVNVZUU",
-    "factory": "factory1",
-    "yearOfManufacture": 2003,
-    "model": "modelS",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "BKYRNFWXUSLWYI",
-    "factory": "factory3",
-    "yearOfManufacture": 2001,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "VCYJAEVTPPCRWS",
-    "factory": "factory2",
-    "yearOfManufacture": 1974,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Truck",
-    "vehicleID": "OFSNDQAFXSKDCS",
-    "factory": "factory2",
     "yearOfManufacture": 2009,
     "model": "modelX",
     "faultHistory": [],
     "active": true
   },
   {
+    "maxCargoMass": 15000.0,
+    "averageCargoPerDay": 34.68097237214599,
+    "storageVolume": 11.933922724888536,
+    "vehicleType": "Van",
+    "vehicleID": "WSJOWDOHVARGFK",
+    "factory": "factory3",
+    "yearOfManufacture": 1991,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 50.0,
+    "averageMassPerDay": 2.573223646871475,
     "vehicleType": "Truck",
-    "vehicleID": "CRDXXHAHVEBEYT",
-    "factory": "factory3",
-    "yearOfManufacture": 2012,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "KVEFDGPZKOXHXO",
-    "factory": "factory3",
-    "yearOfManufacture": 1972,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "SUV",
-    "vehicleID": "QRFIQOCPLNTQVT",
-    "factory": "factory2",
-    "yearOfManufacture": 2020,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "HHBMGJSLAEPXWL",
-    "factory": "factory2",
-    "yearOfManufacture": 1980,
-    "model": "modelX",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "IKMZJMMPCOZKXB",
+    "vehicleID": "BBMZLAQYOJDQBZ",
     "factory": "factory1",
-    "yearOfManufacture": 1972,
-    "model": "modelK",
-    "faultHistory": [],
-    "active": true
-  },
-  {
-    "vehicleType": "Van",
-    "vehicleID": "TUFUTRNFOBKBFZ",
-    "factory": "factory2",
-    "yearOfManufacture": 2010,
+    "yearOfManufacture": 2004,
     "model": "modelS",
     "faultHistory": [],
     "active": true
   },
   {
-    "vehicleType": "SUV",
-    "vehicleID": "OIIWUTRLOFYTPU",
-    "factory": "factory2",
-    "yearOfManufacture": 1989,
-    "model": "modelK",
+    "maxCargoMass": 15000.0,
+    "averageCargoPerDay": 4.789782857364234,
+    "storageVolume": 37.8625876939412,
+    "vehicleType": "Van",
+    "vehicleID": "PLGQBLLUCYLBSB",
+    "factory": "factory3",
+    "yearOfManufacture": 2011,
+    "model": "modelS",
     "faultHistory": [],
     "active": true
   },
   {
-    "vehicleType": "Van",
-    "vehicleID": "LSRYISPHZYCRWC",
-    "factory": "factory1",
-    "yearOfManufacture": 1989,
+    "numSeats": 7,
+    "averageNumPassangers": 7,
+    "vehicleType": "SUV",
+    "vehicleID": "YAALPAVKSIUNRK",
+    "factory": "factory2",
+    "yearOfManufacture": 2022,
+    "model": "modelS",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 7,
+    "averageNumPassangers": 4,
+    "vehicleType": "SUV",
+    "vehicleID": "MBMBHBTWVGOQEV",
+    "factory": "factory3",
+    "yearOfManufacture": 2017,
     "model": "modelX",
     "faultHistory": [],
     "active": true
   },
   {
-    "vehicleType": "Van",
-    "vehicleID": "GWBMXGYQMLRWCO",
+    "maxMassInBack": 25.0,
+    "averageMassPerDay": 10.137190099054546,
+    "vehicleType": "Truck",
+    "vehicleID": "NSJSJFNJUCOJOA",
     "factory": "factory3",
+    "yearOfManufacture": 2005,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 5,
+    "averageNumPassangers": 7,
+    "vehicleType": "SUV",
+    "vehicleID": "BWZJELQJLSUFMF",
+    "factory": "factory3",
+    "yearOfManufacture": 2005,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 35.41504024666707,
+    "storageVolume": 51.015721196930414,
+    "vehicleType": "Van",
+    "vehicleID": "KISRFSAYAMSIYX",
+    "factory": "factory3",
+    "yearOfManufacture": 2018,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 25.0,
+    "averageMassPerDay": 2.0258580307344,
+    "vehicleType": "Truck",
+    "vehicleID": "EXGOSRKHZIRGXO",
+    "factory": "factory3",
+    "yearOfManufacture": 1987,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 15000.0,
+    "averageCargoPerDay": 38.951090343206964,
+    "storageVolume": 19.157909805529897,
+    "vehicleType": "Van",
+    "vehicleID": "LNOTGWTKFDUEKE",
+    "factory": "factory3",
+    "yearOfManufacture": 2004,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 1.6162153223936104,
+    "storageVolume": 57.9637902721841,
+    "vehicleType": "Van",
+    "vehicleID": "VGCSGHPNCPANPK",
+    "factory": "factory3",
+    "yearOfManufacture": 2016,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 25.0,
+    "averageMassPerDay": 9.678948137964007,
+    "vehicleType": "Truck",
+    "vehicleID": "XHWPEHLPYIRUOD",
+    "factory": "factory1",
+    "yearOfManufacture": 2003,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 7,
+    "averageNumPassangers": 1,
+    "vehicleType": "SUV",
+    "vehicleID": "VHZBREWHQOCLGV",
+    "factory": "factory1",
+    "yearOfManufacture": 1976,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 5,
+    "averageNumPassangers": 5,
+    "vehicleType": "SUV",
+    "vehicleID": "RIYQVVAUYRCLYE",
+    "factory": "factory2",
+    "yearOfManufacture": 1977,
+    "model": "modelS",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 14.97851376758308,
+    "storageVolume": 39.30524720039669,
+    "vehicleType": "Van",
+    "vehicleID": "EOILQFMXSEKVCV",
+    "factory": "factory2",
+    "yearOfManufacture": 1979,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 50.0,
+    "averageMassPerDay": 3.003537169661163,
+    "vehicleType": "Truck",
+    "vehicleID": "SRGLXSHHPXMATG",
+    "factory": "factory2",
     "yearOfManufacture": 1971,
-    "model": "modelS",
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 25.0,
+    "averageMassPerDay": 2.2844993981742507,
+    "vehicleType": "Truck",
+    "vehicleID": "LZCKVOWQXFHHVV",
+    "factory": "factory1",
+    "yearOfManufacture": 1985,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 7,
+    "averageNumPassangers": 5,
+    "vehicleType": "SUV",
+    "vehicleID": "BOBDFVLWKRCMXH",
+    "factory": "factory2",
+    "yearOfManufacture": 2014,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 32.67905915024439,
+    "storageVolume": 51.076403692131436,
+    "vehicleType": "Van",
+    "vehicleID": "ZHUPUSWUNLCKKY",
+    "factory": "factory1",
+    "yearOfManufacture": 2014,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxMassInBack": 50.0,
+    "averageMassPerDay": 8.222484997630618,
+    "vehicleType": "Truck",
+    "vehicleID": "EZUBKYCBQLSWTW",
+    "factory": "factory3",
+    "yearOfManufacture": 1997,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 1000.0,
+    "averageCargoPerDay": 7.5433686937628694,
+    "storageVolume": 21.306596892747795,
+    "vehicleType": "Van",
+    "vehicleID": "WZFQULHMAPWDCK",
+    "factory": "factory3",
+    "yearOfManufacture": 1989,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 5,
+    "averageNumPassangers": 1,
+    "vehicleType": "SUV",
+    "vehicleID": "MHMIJNOCLVOZOH",
+    "factory": "factory1",
+    "yearOfManufacture": 1972,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "maxCargoMass": 15000.0,
+    "averageCargoPerDay": 48.68206255191798,
+    "storageVolume": 16.785659330654184,
+    "vehicleType": "Van",
+    "vehicleID": "EIXDGHETSZDPRE",
+    "factory": "factory3",
+    "yearOfManufacture": 1993,
+    "model": "modelX",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 5,
+    "averageNumPassangers": 6,
+    "vehicleType": "SUV",
+    "vehicleID": "XJPPHBBDCUCFPQ",
+    "factory": "factory1",
+    "yearOfManufacture": 2000,
+    "model": "modelK",
+    "faultHistory": [],
+    "active": true
+  },
+  {
+    "numSeats": 7,
+    "averageNumPassangers": 3,
+    "vehicleType": "SUV",
+    "vehicleID": "XPZHPGJQACRUJF",
+    "factory": "factory1",
+    "yearOfManufacture": 2014,
+    "model": "modelX",
     "faultHistory": [],
     "active": true
   }

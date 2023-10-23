@@ -1,0 +1,24 @@
+[
+  {
+    "maxMassInBack": 9.887766,
+    "averageMassPerDay": 3.27867,
+    "vehicleType": "Truck",
+    "vehicleID": "RTERWERREE",
+    "factory": "factory1",
+    "yearOfManufacture": 1903,
+    "model": "ModelS",
+    "faultHistory": [],
+    "active": false
+  },
+  {
+    "numSeats": 7,
+    "averageNumPassangers": 5,
+    "vehicleType": "SUV",
+    "vehicleID": "RTERWERREF",
+    "factory": "factory1",
+    "yearOfManufacture": 1903,
+    "model": "ModelS",
+    "faultHistory": [],
+    "active": false
+  }
+]

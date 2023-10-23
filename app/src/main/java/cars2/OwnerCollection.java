@@ -13,6 +13,7 @@ public class OwnerCollection {
      */
     public OwnerCollection(ListCreator l)
     {
+        // Deserialises contents of owner archive into a list.
         o = l.createList("OwnerArchive", Owner.class);
         ownerCollection = createCollection(o);
     }

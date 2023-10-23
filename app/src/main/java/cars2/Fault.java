@@ -8,6 +8,8 @@ public class Fault
     private String faultID;
     private String subSystemName;
     private TimeWindow timeWindow;
+    private boolean active;
+
     private ArrayList<String> vehicles;
 
     /** Constructor method prepares the object by initialising variables.
@@ -19,12 +21,13 @@ public class Fault
         @param f: Arraylist
         @return: Nothing, method just prepares object for use.  
     */ 
-    public Fault(String ft, String fid, String s, String ts, String tc, ArrayList<String> v)
+    public Fault(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a)
     {
         faultType = ft;
         faultID = fid;
         subSystemName = s;
         timeWindow = new TimeWindow(ts, tc);
+        active = a;
         vehicles = v;
     }
     
@@ -79,6 +82,15 @@ public class Fault
     public ArrayList<String> getVehicles()
     {
         return vehicles;
+    }
+
+
+    /** Accessor method.
+     * @return boolean
+     */
+    public boolean getActive() 
+    {
+        return active;
     }
 
     /** Method intended to add a vehicle to the list of vehicles.  

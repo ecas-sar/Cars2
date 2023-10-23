@@ -7,6 +7,7 @@ public class Vehicle {
     private String vehicleID;
     private String factory;
     private int yearOfManufacture;
+    // Chose not to include model subclasses in order to contain scope.
     private String model;
     private ArrayList<String> faultHistory;
     private boolean active;

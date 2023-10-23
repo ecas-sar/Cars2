@@ -14,6 +14,7 @@ public class SubSystemCollection
      */
     public SubSystemCollection(ListCreator l)
     {
+        // Deserialises contents of sub system archive into a list.
         s = l.createList("SubSystemArchive", SubSystem.class);
         subSystemCollection = createCollection(s);
     }
