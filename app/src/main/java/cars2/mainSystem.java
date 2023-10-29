@@ -227,14 +227,15 @@ public class mainSystem implements dataAndStats {
         for (int assocIndex = 0; assocIndex < vehOwn.size(); assocIndex++)
         {
            Association valAtIndex = vehOwn.get(assocIndex); 
-           Owner o = ownerCollection.get(valAtIndex.getfirstID());
-           Vehicle v  = vehicleCollection.get(valAtIndex.getsecondID());
-           String VName = valAtIndex.getsecondID();
+           Vehicle v  = vehicleCollection.get(valAtIndex.getfirstID());
+           Owner o = ownerCollection.get(valAtIndex.getsecondID());
+           String VName = valAtIndex.getfirstID();
+           String OName = valAtIndex.getsecondID();
            // To prevent run-time error of if it tries to access one of these methods from a null object.
            if (v != null && o != null)
            {
                 o.getOwnedVehicles().add(VName);
-                v.setOwnerID(valAtIndex.getfirstID());
+                v.setOwnerID(OName);
            }
         }
     }
