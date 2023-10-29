@@ -16,8 +16,8 @@ private int averageNumPassangers;
      * @param a
      * @return: Nothing, constructor just prepares object for use.
      */
-    public SUV(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, boolean a, int ns, int anp) {
-        super(vt, vid, f, yom, m, fa, a);
+    public SUV(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, String own, boolean a, int ns, int anp) {
+        super(vt, vid, f, yom, m, fa, own, a);
         numSeats = ns;
         averageNumPassangers = anp;
     }

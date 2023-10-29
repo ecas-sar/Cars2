@@ -234,6 +234,7 @@ public class mainSystem implements dataAndStats {
            if (v != null && o != null)
            {
                 o.getOwnedVehicles().add(VName);
+                v.setOwnerID(valAtIndex.getfirstID());
            }
         }
     }
@@ -312,7 +313,7 @@ public Vehicle createVehicle()
     vehicleID = generateString(vinLength);
 
     // the vehicle type, factory, and model are taken from an array of 3 and the index is randomly decided. This is done to prevent many if statements to save processing power.
-    Vehicle v = new Vehicle(vehicleType, vehicleID, factory, yearOfManufacture, model, new ArrayList<String>(), active);
+    Vehicle v = new Vehicle(vehicleType, vehicleID, factory, yearOfManufacture, model, new ArrayList<String>(), "", active);
     if (vehicleType.equals("SUV"))
     {
         SUV suv = createSUV(v);
@@ -339,7 +340,7 @@ public SUV createSUV(Vehicle v)
     int[] numSeatsOptions = {5, 7, 8};
     int optionIndex = (int) (Math.random()*2);
     int averageNumPassengers = (int) (Math.random()*7 + 1);
-    SUV suv = new SUV(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getActive(), numSeatsOptions[optionIndex], averageNumPassengers);
+    SUV suv = new SUV(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getOwnerID(), v.getActive(), numSeatsOptions[optionIndex], averageNumPassengers);
     return suv; 
 }
 
@@ -352,7 +353,7 @@ public Truck createTruck(Vehicle v)
     double[] maxMassInBackOptions = {25.0, 50.0, 75.0};
     int massIndex = (int) (Math.random()*2);
     double averageMassPerDay = Math.random()*15;
-    Truck truck = new Truck(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getActive(), maxMassInBackOptions[massIndex], averageMassPerDay);
+    Truck truck = new Truck(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getOwnerID(), v.getActive(), maxMassInBackOptions[massIndex], averageMassPerDay);
     return truck;
 }
 
@@ -366,7 +367,7 @@ public Van createVan(Vehicle v)
     int massIndex = (int) (Math.random()*2);
     double averageCargoPerDay = Math.random()*50;
     double storageVolume = Math.random()*60;
-    Van van = new Van(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getActive(), maxCargoMassOptions[massIndex], averageCargoPerDay, storageVolume);
+    Van van = new Van(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getOwnerID(), v.getActive(), maxCargoMassOptions[massIndex], averageCargoPerDay, storageVolume);
     return van;
 }
 
@@ -489,8 +490,11 @@ public String createTime()
 
     int hour = (int)(Math.random()*24);
     int minutes = (int)(Math.random()*60);
+    int seconds = (int)(Math.random()*60);
 
-    String time = Integer.toString(day) + ":" + Integer.toString(month) + ":" + Integer.toString(year) + " " + Integer.toString(hour) + ":" + Integer.toString(minutes);
+    String format = "%02d";
+
+    String time = Integer.toString(year) + "-" + String.format(format, month) + "-" + String.format(format, day) + "T" + String.format(format, hour) + ":" + String.format(format, minutes) + ":" + String.format(format, seconds);
     return time;
 }
 

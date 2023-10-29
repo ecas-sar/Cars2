@@ -7,9 +7,10 @@ public class Vehicle {
     private String vehicleID;
     private String factory;
     private int yearOfManufacture;
-    // Chose not to include model subclasses in order to contain scope.
+    // Chose not to include model subclasses in order to contain project scope.
     private String model;
     private ArrayList<String> faultHistory;
+    private String ownerID;
     private boolean active;
 
     /**
@@ -21,13 +22,14 @@ public class Vehicle {
      * @param e: boolean
      * @return: Nothing, method just prepares object for use.
      */
-    public Vehicle(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, boolean a) {
+    public Vehicle(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, String own, boolean a) {
         vehicleType = vt;
         vehicleID = vid;
         factory = f;
         yearOfManufacture = yom;
         model = m;
         faultHistory = fa;
+        ownerID = own;
         active = a;
     }
 
@@ -93,6 +95,20 @@ public class Vehicle {
      */
     public ArrayList<String> getFaultHistory() {
         return faultHistory;
+    }
+ 
+    /** Accessor method.
+     * @return string
+     */
+    public String getOwnerID() {
+        return ownerID;
+    }
+
+    /** Setter method.
+     * @param ownerID
+     */
+    public void setOwnerID(String ownerID) {
+        this.ownerID = ownerID;
     }
 
     /**

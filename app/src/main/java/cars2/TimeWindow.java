@@ -1,8 +1,16 @@
 package cars2;
 
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 public class TimeWindow {
     private String timeStarted;
     private String timeCleared;
+    private LocalDateTime dateStarted;
+    private LocalDateTime dateCleared;
+    private Duration duration;
+    
 
     /**
      * Constructor method intended to prepare timeWindow object by initialising
@@ -12,8 +20,15 @@ public class TimeWindow {
      * @return: Nothing, method just prepares object.
      */
     public TimeWindow(String ts, String tc) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss");
+
         timeStarted = ts;
         timeCleared = tc;
+        
+        dateStarted = LocalDateTime.parse(ts, formatter);
+        dateCleared = LocalDateTime.parse(tc, formatter);
+
+        duration = Duration.between(dateStarted, dateCleared);
     }
 
     /**
@@ -33,90 +48,28 @@ public class TimeWindow {
     public String getTimeCleared() {
         return timeCleared;
     }
-    
+ 
+    /** Method intended to calculate how much time was in this time window in HH:MM:SS form.
+     * 
+     * @return time in window as string in HH:MM:SS form
+     */
+    public String totalTimeInWindowInHoursMinutesSeconds()
+    {
+        long HH = duration.toHours();
+        long MM = duration.toMinutesPart();
+        long SS = duration.toSecondsPart();
+        return String.format("%02d:%02d:%02d", HH, MM, SS);
+    }
 
-    /** Method intended to calculate how much time was in this time window.
+    /** Method intended to calculate how much time was in this time window. Will only return the value that is
+     * greater than 0, as it is less useful for the clients to see that a time window lasted 0.6 years than that 
+     * it lasted 2 months.
+     * 
      * @return time in window
      */
-    public double totalTimeInWindow()
+    public Duration totalTimeInWindow()
     {
-        double yearsInTimeWindow = years(timeCleared) - years(timeStarted);
-        double monthsInTimeWindow = months(timeCleared) - months(timeStarted);
-        double daysInTimeWindow = days(timeCleared) - days(timeStarted);
-        double hoursInTimeWindow = hours(timeCleared) - hours(timeStarted);
-        double minutesInTimeWindow = minutes(timeCleared) - minutes(timeStarted);
-        double[] timeUnits = {yearsInTimeWindow, monthsInTimeWindow, daysInTimeWindow, hoursInTimeWindow, minutesInTimeWindow};
-        int unitIndex = 0;
-        boolean unitFound = false;
-        double totalTimeToReturn = 0.0;
-        while (unitIndex < timeUnits.length && !unitFound)
-        {
-            double currentUnit = timeUnits[unitIndex];
-            if (currentUnit == (int)currentUnit)
-            {
-                totalTimeToReturn = currentUnit;
-                unitFound = true;
-            }
-        }
-        return totalTimeToReturn;
+        return duration;
     }
 
-    /** Method intended to return how many years after 1970 was the given time stamp.
-     * @param timeStamp
-     * @return double
-     */
-    public double years(String timeStamp)
-    {
-        String timeStampString = timeStamp.substring(0, 4);
-        double timeStampYear = Double.parseDouble(timeStampString);
-        double timeStampDifference = timeStampYear - 1970;
-        return timeStampDifference;
-    }
-
-    /** Method intended to return how many months since 1970 was the given time stamp.
-     * @param timeStamp
-     * @return double
-     */
-    public double months(String timeStamp)
-    {
-        double years = years(timeStamp);
-        double months = years*2;
-        return months;
-    }
-
-    /** Method intended to return how many days since 1970 was the given time stamp.
-     * @param timeStamp
-     * @return double
-     */
-    public double days(String timeStamp)
-    {
-        double months = months(timeStamp);
-        // Adding up the months with 31, 30, and 28 days.
-        double daysNoLeapYears = ((months*(7/12))*31) + ((months*(4/12))*30) + 28;
-        // Making sure a number without the decimal point is returned without changing the data type.
-        double numLeapYearsSince1970 = (years(timeStamp)/4) - ((years(timeStamp)/4)%1);
-        // Since there is one new day per leap year, the number of leap years can be added to the days.
-        double daysWithLeapYears = daysNoLeapYears += numLeapYearsSince1970;
-        return daysWithLeapYears;
-    }
-
-    /** Method intended to return how many hours since 1970 was the given time stamp.
-     * @param timeStamp
-     * @return double
-     */
-    public double hours(String timeStamp)
-    {
-        double hours = days(timeStamp)*24;
-        return hours;
-    }
-
-    /** Method intended to return how many minutes since 1970 was the given timeStamp.
-     * @param timeStamp
-     * @return double
-     */
-    public double minutes(String timeStamp)
-    {
-        double minutes = hours(timeStamp)*60;
-        return minutes;
-    }
 }

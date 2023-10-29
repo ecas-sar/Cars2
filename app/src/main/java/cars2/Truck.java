@@ -16,8 +16,8 @@ private double averageMassPerDay;
      * @param a
      * @return: Nothing, constructor just prepares object for use.
      */
-    public Truck(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, boolean a, double mmib, double ampd) {
-        super(vt, vid, f, yom, m, fa, a);
+    public Truck(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, String own, boolean a, double mmib, double ampd) {
+        super(vt, vid, f, yom, m, fa, own, a);
         maxMassInBack = mmib;
         averageMassPerDay = ampd;
     }

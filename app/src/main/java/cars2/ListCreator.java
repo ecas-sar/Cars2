@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.lang.reflect.Array;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.time.Duration;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -13,7 +15,6 @@ import com.google.gson.GsonBuilder;
 
 public class ListCreator {
     private String basePath;
-    private GsonBuilder builder;
     private Gson gson;
     
     /**
@@ -43,6 +44,8 @@ public class ListCreator {
          gson = new GsonBuilder().setPrettyPrinting()
                 .registerTypeAdapterFactory(vehicleRuntimeTypeAdapterFactory)
                 .registerTypeAdapterFactory(faultRuntimeTypeAdapterFactory)
+                .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeTypeAdapter())
+                .registerTypeAdapter(Duration.class, new DurationTypeAdapter())
                 .create();
     }
 

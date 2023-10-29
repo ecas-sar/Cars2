@@ -69,8 +69,8 @@ class AppTest {
     {
         try {
             mainSystem m = new mainSystem();
-            Truck truck = new Truck("Truck", "RTERWERREE", "factory1", 1903, "ModelS", new ArrayList<String>(), false, 9.887766, 3.27867);
-            SUV suv = new SUV("SUV", "RTERWERREF", "factory1", 1903, "ModelS", new ArrayList<String>(), false, 7, 5);
+            Truck truck = new Truck("Truck", "RTERWERREE", "factory1", 1903, "ModelS", new ArrayList<String>(), "", false, 9.887766, 3.27867);
+            SUV suv = new SUV("SUV", "RTERWERREF", "factory1", 1903, "ModelS", new ArrayList<String>(),  "", false, 7, 5);
             ArrayList<Vehicle> vList = new ArrayList<Vehicle>();
             vList.add(truck);
             vList.add(suv);

@@ -1,572 +1,345 @@
 [
   {
-    "systemName": "WLLVHE",
-    "partNumber": 0,
-    "failureType": "Abrasion",
-    "faultType": "Mechanical",
-    "faultID": "VQEKHMTDUJMLAD",
+    "modulePartNumber": 14,
+    "numModulesAffected": 5,
+    "DBCForOBT": "FSLUCAPBXI",
+    "faultType": "Electrical",
+    "faultID": "SVMVHHQZIZMVRU",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "25:2:2001 1:58",
-      "timeCleared": "17:3:2014 4:9"
+      "timeStarted": "2012-02-26T11:02:20",
+      "timeCleared": "1988-04-03T04:30:53",
+      "dateStarted": "2012-02-26T11:02:20",
+      "dateCleared": "1988-04-03T04:30:53",
+      "duration": "PT-209502H-31M-27S"
     },
-    "active": false,
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "systemName": "WU",
+    "partNumber": 4,
+    "failureType": "Fatigue",
+    "faultType": "Mechanical",
+    "faultID": "PFQLKOXLSHPOKD",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1971-04-18T02:47:43",
+      "timeCleared": "1982-11-05T09:54:14",
+      "dateStarted": "1971-04-18T02:47:43",
+      "dateCleared": "1982-11-05T09:54:14",
+      "duration": "PT101263H6M31S"
+    },
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "systemName": "UV",
+    "partNumber": 7,
+    "failureType": "Abrasion",
+    "faultType": "Mechanical",
+    "faultID": "SVTRWUMWTTXCBA",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1985-04-04T07:58:48",
+      "timeCleared": "1987-09-17T07:35:41",
+      "dateStarted": "1985-04-04T07:58:48",
+      "dateCleared": "1987-09-17T07:35:41",
+      "duration": "PT21503H36M53S"
+    },
+    "active": true,
     "vehicles": []
   },
   {
     "runTime": true,
-    "numLinesInClass": 174,
+    "numLinesInClass": 343,
     "majorOrMinor": false,
-    "severity": "NZQLIOEKQ",
+    "severity": "NOTYVUCGA",
     "faultType": "Software",
-    "faultID": "OJEIXPCPHFMOVB",
+    "faultID": "BGXJVESHLBBKIO",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "22:7:2004 18:6",
-      "timeCleared": "24:10:2012 8:41"
+      "timeStarted": "1998-10-16T19:08:01",
+      "timeCleared": "1978-09-11T10:12:24",
+      "dateStarted": "1998-10-16T19:08:01",
+      "dateCleared": "1978-09-11T10:12:24",
+      "duration": "PT-176168H-55M-37S"
     },
-    "active": false,
+    "active": true,
     "vehicles": []
   },
   {
-    "systemName": "LVRJ",
+    "systemName": "L",
     "partNumber": 4,
-    "failureType": "Corrosion",
+    "failureType": "Fatigue",
     "faultType": "Mechanical",
-    "faultID": "WSTNUTILMHIERQ",
+    "faultID": "SMBZCQTUOIJIYU",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "29:7:2012 10:27",
-      "timeCleared": "8:6:2015 21:3"
+      "timeStarted": "2014-09-08T03:05:42",
+      "timeCleared": "2004-10-01T23:04:01",
+      "dateStarted": "2014-09-08T03:05:42",
+      "dateCleared": "2004-10-01T23:04:01",
+      "duration": "PT-87076H-1M-41S"
     },
-    "active": false,
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "modulePartNumber": 4,
+    "numModulesAffected": 12,
+    "DBCForOBT": "QDQSJCLQQC",
+    "faultType": "Electrical",
+    "faultID": "CAPDGTDKXJODES",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1972-05-05T08:43:25",
+      "timeCleared": "1983-04-18T04:33:36",
+      "dateStarted": "1972-05-05T08:43:25",
+      "dateCleared": "1983-04-18T04:33:36",
+      "duration": "PT95995H50M11S"
+    },
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "systemName": "DLNNWX",
+    "partNumber": 8,
+    "failureType": "Abrasion",
+    "faultType": "Mechanical",
+    "faultID": "OXDAGCJHFIOBUK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1972-04-04T17:49:12",
+      "timeCleared": "1995-01-01T01:22:45",
+      "dateStarted": "1972-04-04T17:49:12",
+      "dateCleared": "1995-01-01T01:22:45",
+      "duration": "PT199351H33M33S"
+    },
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "modulePartNumber": 8,
+    "numModulesAffected": 5,
+    "DBCForOBT": "QHWHUYWRSU",
+    "faultType": "Electrical",
+    "faultID": "LMOLEUAWCRGCVK",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1987-04-18T02:44:44",
+      "timeCleared": "2005-05-17T00:27:19",
+      "dateStarted": "1987-04-18T02:44:44",
+      "dateCleared": "2005-05-17T00:27:19",
+      "duration": "PT158493H42M35S"
+    },
+    "active": true,
     "vehicles": []
   },
   {
     "runTime": false,
-    "numLinesInClass": 593,
+    "numLinesInClass": 402,
     "majorOrMinor": false,
-    "severity": "OQOOVISOO",
+    "severity": "JRANXRBUU",
     "faultType": "Software",
-    "faultID": "OUIZCFDWMXWUNZ",
+    "faultID": "OWEDVYAWOFQELE",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "21:6:1979 13:24",
-      "timeCleared": "12:7:2011 16:32"
+      "timeStarted": "2002-06-20T02:07:18",
+      "timeCleared": "1976-07-25T02:36:43",
+      "dateStarted": "2002-06-20T02:07:18",
+      "dateCleared": "1976-07-25T02:36:43",
+      "duration": "PT-227063H-30M-35S"
     },
-    "active": false,
+    "active": true,
     "vehicles": []
   },
   {
-    "modulePartNumber": 14,
-    "numModulesAffected": 3,
-    "DBCForOBT": "USYDOMAHWS",
-    "faultType": "Electrical",
-    "faultID": "IDYWUMAENOWJAB",
+    "systemName": "RCVTCFC",
+    "partNumber": 9,
+    "failureType": "Corrosion",
+    "faultType": "Mechanical",
+    "faultID": "GBRCXLWSHPFYDW",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "20:10:2004 10:33",
-      "timeCleared": "12:7:2017 4:59"
+      "timeStarted": "2005-10-02T05:02:07",
+      "timeCleared": "1994-07-22T02:16:56",
+      "dateStarted": "2005-10-02T05:02:07",
+      "dateCleared": "1994-07-22T02:16:56",
+      "duration": "PT-98162H-45M-11S"
     },
-    "active": false,
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "runTime": true,
+    "numLinesInClass": 1184,
+    "majorOrMinor": false,
+    "severity": "CGIVYFGPO",
+    "faultType": "Software",
+    "faultID": "ZFWDVYMVLGWEMN",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2013-02-05T18:26:58",
+      "timeCleared": "1971-11-03T01:41:57",
+      "dateStarted": "2013-02-05T18:26:58",
+      "dateCleared": "1971-11-03T01:41:57",
+      "duration": "PT-361696H-45M-1S"
+    },
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "runTime": false,
+    "numLinesInClass": 790,
+    "majorOrMinor": false,
+    "severity": "VFWDHIOVP",
+    "faultType": "Software",
+    "faultID": "HLCVKKQLENWNAF",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2014-09-10T20:08:27",
+      "timeCleared": "1996-08-02T04:12:46",
+      "dateStarted": "2014-09-10T20:08:27",
+      "dateCleared": "1996-08-02T04:12:46",
+      "duration": "PT-158727H-55M-41S"
+    },
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "modulePartNumber": 2,
+    "numModulesAffected": 0,
+    "DBCForOBT": "TWOKXCSPKG",
+    "faultType": "Electrical",
+    "faultID": "ZXTKKECLPGNCTJ",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2015-08-26T01:29:53",
+      "timeCleared": "2001-09-27T03:44:18",
+      "dateStarted": "2015-08-26T01:29:53",
+      "dateCleared": "2001-09-27T03:44:18",
+      "duration": "PT-121941H-45M-35S"
+    },
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "runTime": true,
+    "numLinesInClass": 91,
+    "majorOrMinor": false,
+    "severity": "GVYJWLXWI",
+    "faultType": "Software",
+    "faultID": "YGFGXKGZNDHZLR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "2017-02-01T07:13:03",
+      "timeCleared": "2019-01-05T22:36:52",
+      "dateStarted": "2017-02-01T07:13:03",
+      "dateCleared": "2019-01-05T22:36:52",
+      "duration": "PT16887H23M49S"
+    },
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "modulePartNumber": 12,
+    "numModulesAffected": 1,
+    "DBCForOBT": "UPZLAVMXWL",
+    "faultType": "Electrical",
+    "faultID": "SYZCBQMJTZOXTR",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1978-01-02T17:25:05",
+      "timeCleared": "1971-02-22T15:33:02",
+      "dateStarted": "1978-01-02T17:25:05",
+      "dateCleared": "1971-02-22T15:33:02",
+      "duration": "PT-60145H-52M-3S"
+    },
+    "active": true,
     "vehicles": []
   },
   {
     "modulePartNumber": 2,
     "numModulesAffected": 4,
-    "DBCForOBT": "DXVGFOVKSG",
+    "DBCForOBT": "JUVGNFZKUD",
     "faultType": "Electrical",
-    "faultID": "UEEIOJCFUXEGJR",
+    "faultID": "OTREQHMVLOYHXX",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "3:4:1978 3:21",
-      "timeCleared": "3:4:1986 3:54"
+      "timeStarted": "2014-07-13T04:18:17",
+      "timeCleared": "2008-08-18T22:30:44",
+      "dateStarted": "2014-07-13T04:18:17",
+      "dateCleared": "2008-08-18T22:30:44",
+      "duration": "PT-51701H-47M-33S"
     },
-    "active": false,
+    "active": true,
+    "vehicles": []
+  },
+  {
+    "systemName": "O",
+    "partNumber": 14,
+    "failureType": "Corrosion",
+    "faultType": "Mechanical",
+    "faultID": "PAFTFMQFYDCPOT",
+    "subSystemName": "",
+    "timeWindow": {
+      "timeStarted": "1992-01-19T15:53:38",
+      "timeCleared": "1997-07-16T07:25:21",
+      "dateStarted": "1992-01-19T15:53:38",
+      "dateCleared": "1997-07-16T07:25:21",
+      "duration": "PT48111H31M43S"
+    },
+    "active": true,
     "vehicles": []
   },
   {
     "modulePartNumber": 3,
-    "numModulesAffected": 1,
-    "DBCForOBT": "SHOYCXFQKT",
-    "faultType": "Electrical",
-    "faultID": "ICTAKBVVORUQXO",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "18:3:2004 15:27",
-      "timeCleared": "16:7:1998 22:43"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "systemName": "JCEMWI",
-    "partNumber": 14,
-    "failureType": "Fatigue",
-    "faultType": "Mechanical",
-    "faultID": "ICRGMXYAEYRNRE",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "26:8:1976 0:34",
-      "timeCleared": "27:10:1978 17:25"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 2,
-    "numModulesAffected": 10,
-    "DBCForOBT": "AGLDQQZUDN",
-    "faultType": "Electrical",
-    "faultID": "LSYNVRSXLISMAZ",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "13:5:1997 8:7",
-      "timeCleared": "18:4:2018 5:57"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 12,
     "numModulesAffected": 8,
-    "DBCForOBT": "SEIALVWMYO",
+    "DBCForOBT": "ILEQMHLKZN",
     "faultType": "Electrical",
-    "faultID": "HHPMUJYADIGFHM",
+    "faultID": "CZAWLVKQXNHDSN",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "13:7:2022 2:8",
-      "timeCleared": "12:8:1999 14:54"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "systemName": "N",
-    "partNumber": 12,
-    "failureType": "Abrasion",
-    "faultType": "Mechanical",
-    "faultID": "MEJEKKISGFIYTN",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "13:3:2012 21:12",
-      "timeCleared": "6:10:1979 13:49"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "systemName": "QUSMQCL",
-    "partNumber": 11,
-    "failureType": "Creep",
-    "faultType": "Mechanical",
-    "faultID": "BTFOPRDOZQKTAW",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "22:1:1997 10:34",
-      "timeCleared": "22:6:2013 20:52"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 13,
-    "numModulesAffected": 3,
-    "DBCForOBT": "NNLNYWTHKU",
-    "faultType": "Electrical",
-    "faultID": "OPUBEOFGLJKDAZ",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "12:2:2022 4:39",
-      "timeCleared": "9:8:2011 10:43"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "systemName": "JMW",
-    "partNumber": 4,
-    "failureType": "Shock loading",
-    "faultType": "Mechanical",
-    "faultID": "TFIKNENIHIWZTP",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "11:5:2003 6:2",
-      "timeCleared": "22:6:1981 5:12"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "runTime": false,
-    "numLinesInClass": 685,
-    "majorOrMinor": false,
-    "severity": "CFVUHOYCQ",
-    "faultType": "Software",
-    "faultID": "GCRQXWOAWBVHXC",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "2:8:2017 14:50",
-      "timeCleared": "9:1:1985 15:59"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "systemName": "TOVDYMB",
-    "partNumber": 0,
-    "failureType": "Abrasion",
-    "faultType": "Mechanical",
-    "faultID": "EHCLYGSHIVNBPN",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "16:1:1975 9:22",
-      "timeCleared": "5:7:1986 22:48"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "systemName": "",
-    "partNumber": 1,
-    "failureType": "Creep",
-    "faultType": "Mechanical",
-    "faultID": "DQRJXKJQIFYTWA",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "13:4:2012 3:21",
-      "timeCleared": "21:10:2005 20:40"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "systemName": "BBKV",
-    "partNumber": 2,
-    "failureType": "Creep",
-    "faultType": "Mechanical",
-    "faultID": "XQIZPUYGTHKBJQ",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "9:4:2004 11:20",
-      "timeCleared": "24:3:2019 1:57"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "runTime": true,
-    "numLinesInClass": 494,
-    "majorOrMinor": false,
-    "severity": "JPDHLEZED",
-    "faultType": "Software",
-    "faultID": "UZPVRFFSLPMNOF",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "7:2:1982 12:21",
-      "timeCleared": "15:6:1990 2:41"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "runTime": true,
-    "numLinesInClass": 941,
-    "majorOrMinor": false,
-    "severity": "TTJRDHFKM",
-    "faultType": "Software",
-    "faultID": "HVLTNZNYNJGKHE",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "4:1:2005 7:46",
-      "timeCleared": "3:6:1998 7:12"
-    },
-    "active": false,
-    "vehicles": []
-  },
-  {
-    "runTime": false,
-    "numLinesInClass": 898,
-    "majorOrMinor": false,
-    "severity": "GBHHVXUJX",
-    "faultType": "Software",
-    "faultID": "UQIZFOSQTRTOEB",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "25:10:1979 6:29",
-      "timeCleared": "6:1:1999 10:22"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 10,
-    "numModulesAffected": 11,
-    "DBCForOBT": "JERBPXJJSB",
-    "faultType": "Electrical",
-    "faultID": "KOFNZQUWIKJAQI",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "20:8:2010 18:5",
-      "timeCleared": "1:5:1978 0:5"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "runTime": false,
-    "numLinesInClass": 152,
-    "majorOrMinor": false,
-    "severity": "AWLRVJUHP",
-    "faultType": "Software",
-    "faultID": "OFYIIGSMJUBARX",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "14:2:1998 22:15",
-      "timeCleared": "28:7:1987 21:29"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "systemName": "YFA",
-    "partNumber": 5,
-    "failureType": "Fatigue",
-    "faultType": "Mechanical",
-    "faultID": "GXQTHXHRFZVWSA",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "4:4:1988 3:17",
-      "timeCleared": "19:1:1978 14:4"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "systemName": "I",
-    "partNumber": 11,
-    "failureType": "Corrosion",
-    "faultType": "Mechanical",
-    "faultID": "ABFYXPKOFWVQOH",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "12:4:1988 18:57",
-      "timeCleared": "18:3:1972 18:38"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "runTime": false,
-    "numLinesInClass": 768,
-    "majorOrMinor": false,
-    "severity": "QJKLMNLES",
-    "faultType": "Software",
-    "faultID": "EQPAFFZPSBOFOQ",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "1:5:2005 6:42",
-      "timeCleared": "11:10:1993 16:34"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 0,
-    "numModulesAffected": 2,
-    "DBCForOBT": "VYQHLQAJVN",
-    "faultType": "Electrical",
-    "faultID": "PVCNFMDRUAGWCQ",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "15:9:2009 12:50",
-      "timeCleared": "23:5:1987 5:44"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "runTime": true,
-    "numLinesInClass": 1129,
-    "majorOrMinor": false,
-    "severity": "YVMSAPFVN",
-    "faultType": "Software",
-    "faultID": "IZGOSCQIQOTWBG",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "6:8:1984 7:6",
-      "timeCleared": "24:7:1987 0:48"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "runTime": true,
-    "numLinesInClass": 34,
-    "majorOrMinor": false,
-    "severity": "EDYEHOBLW",
-    "faultType": "Software",
-    "faultID": "AARIKGAHOYRERL",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "26:8:2019 12:27",
-      "timeCleared": "16:5:1996 16:1"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "runTime": true,
-    "numLinesInClass": 1292,
-    "majorOrMinor": false,
-    "severity": "STINQHGQF",
-    "faultType": "Software",
-    "faultID": "ZYCBQVYOCAQVEG",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "25:5:2013 4:32",
-      "timeCleared": "26:8:1987 1:41"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 12,
-    "numModulesAffected": 11,
-    "DBCForOBT": "PDTQNFXQQG",
-    "faultType": "Electrical",
-    "faultID": "YHMZUNKDMODVHX",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "26:5:1981 7:45",
-      "timeCleared": "2:7:1976 6:15"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "systemName": "OR",
-    "partNumber": 9,
-    "failureType": "Creep",
-    "faultType": "Mechanical",
-    "faultID": "HECIFNDPFFDUBA",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "5:4:2001 16:20",
-      "timeCleared": "3:3:1995 18:16"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "runTime": true,
-    "numLinesInClass": 1415,
-    "majorOrMinor": false,
-    "severity": "NNEKAWFUD",
-    "faultType": "Software",
-    "faultID": "PLEVEBZFMLMOFT",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "29:4:2020 1:34",
-      "timeCleared": "11:6:1983 23:6"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "systemName": "DJ",
-    "partNumber": 10,
-    "failureType": "Shock loading",
-    "faultType": "Mechanical",
-    "faultID": "TQVJKLVKNYAMMQ",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "7:2:2014 11:33",
-      "timeCleared": "3:4:1989 1:27"
+      "timeStarted": "1995-03-15T15:47:10",
+      "timeCleared": "2004-11-13T04:18:41",
+      "dateStarted": "1995-03-15T15:47:10",
+      "dateCleared": "2004-11-13T04:18:41",
+      "duration": "PT84732H31M31S"
     },
     "active": true,
     "vehicles": []
   },
   {
     "modulePartNumber": 9,
-    "numModulesAffected": 4,
-    "DBCForOBT": "QAYMUCKFNL",
+    "numModulesAffected": 5,
+    "DBCForOBT": "FOJPOXQLAE",
     "faultType": "Electrical",
-    "faultID": "RJPNSJNWBCFLPV",
+    "faultID": "UBKXLGVTYZBHDG",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "21:5:2006 5:38",
-      "timeCleared": "2:1:2002 3:20"
+      "timeStarted": "2018-11-12T00:29:49",
+      "timeCleared": "1980-05-14T08:07:24",
+      "dateStarted": "2018-11-12T00:29:49",
+      "dateCleared": "1980-05-14T08:07:24",
+      "duration": "PT-337456H-22M-25S"
     },
     "active": true,
     "vehicles": []
   },
   {
-    "modulePartNumber": 7,
-    "numModulesAffected": 2,
-    "DBCForOBT": "GQGRNFDSFO",
+    "modulePartNumber": 5,
+    "numModulesAffected": 13,
+    "DBCForOBT": "TNHPRDXDXH",
     "faultType": "Electrical",
-    "faultID": "JMYDCOKESBWEOE",
+    "faultID": "TXFUUSOPHTXKSP",
     "subSystemName": "",
     "timeWindow": {
-      "timeStarted": "8:8:1989 14:19",
-      "timeCleared": "13:1:1983 19:8"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 1,
-    "numModulesAffected": 1,
-    "DBCForOBT": "HDDSNDYYNX",
-    "faultType": "Electrical",
-    "faultID": "WWRRPLJHMGNZER",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "13:6:1995 12:38",
-      "timeCleared": "24:4:1980 6:47"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "systemName": "XLYXB",
-    "partNumber": 11,
-    "failureType": "Shock loading",
-    "faultType": "Mechanical",
-    "faultID": "KYKMRPIJXODPQK",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "9:8:2003 15:59",
-      "timeCleared": "21:10:1973 4:53"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "modulePartNumber": 11,
-    "numModulesAffected": 11,
-    "DBCForOBT": "FVYNAKNUSY",
-    "faultType": "Electrical",
-    "faultID": "CLQQGZKCWFIIVC",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "21:2:1996 15:25",
-      "timeCleared": "16:5:1985 10:55"
-    },
-    "active": true,
-    "vehicles": []
-  },
-  {
-    "systemName": "R",
-    "partNumber": 12,
-    "failureType": "Shock loading",
-    "faultType": "Mechanical",
-    "faultID": "ZUSETFYIJXWBWL",
-    "subSystemName": "",
-    "timeWindow": {
-      "timeStarted": "2:9:1972 13:35",
-      "timeCleared": "18:10:2010 3:23"
+      "timeStarted": "1980-05-18T12:11:22",
+      "timeCleared": "2019-06-20T00:14:10",
+      "dateStarted": "1980-05-18T12:11:22",
+      "dateCleared": "2019-06-20T00:14:10",
+      "duration": "PT342636H2M48S"
     },
     "active": true,
     "vehicles": []
