@@ -7,8 +7,10 @@ import java.time.format.DateTimeFormatter;
 public class TimeWindow {
     private String timeStarted;
     private String timeCleared;
+    private String time1970;
     private LocalDateTime dateStarted;
     private LocalDateTime dateCleared;
+    private LocalDateTime date1970;
     private Duration duration;
     
 
@@ -24,9 +26,11 @@ public class TimeWindow {
 
         timeStarted = ts;
         timeCleared = tc;
+        time1970 = "1970-01-01T00:00:00";
         
         dateStarted = LocalDateTime.parse(ts, formatter);
         dateCleared = LocalDateTime.parse(tc, formatter);
+        date1970 = LocalDateTime.parse(time1970, formatter);
 
         duration = Duration.between(dateStarted, dateCleared);
     }
@@ -61,15 +65,33 @@ public class TimeWindow {
         return String.format("%02d:%02d:%02d", HH, MM, SS);
     }
 
-    /** Method intended to calculate how much time was in this time window. Will only return the value that is
-     * greater than 0, as it is less useful for the clients to see that a time window lasted 0.6 years than that 
-     * it lasted 2 months.
+    /** Method intended to calculate how many days were in this time window. 
      * 
      * @return time in window
      */
-    public Duration totalTimeInWindow()
+    public long totalTimeInWindow()
     {
-        return duration;
+        long daysInDuration = duration.toDays();
+        return daysInDuration;
     }
 
+    /** Method intended to return how many seconds since 1970 the fault arose.
+     * @return long
+     */
+    public long secondsStartedSince1970()
+    {
+        Duration since1970 = Duration.between(date1970, dateStarted);
+        long secondsSince1970 = since1970.toSeconds();
+        return secondsSince1970;
+    }
+
+    /** Method intended to return how many seconds since 1970 the fault was fixed.
+     * @return Duration
+     */
+    public long secondsClearedSince1970()
+    {
+        Duration since1970 = Duration.between(date1970, dateCleared);
+        long secondsSince1970 = since1970.toSeconds();
+        return secondsSince1970;
+    }
 }

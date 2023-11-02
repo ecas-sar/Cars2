@@ -364,7 +364,7 @@ public Truck createTruck(Vehicle v)
  */
 public Van createVan(Vehicle v)
 {
-    double[] maxCargoMassOptions = {1000.0, 15000.0, 2000.0};
+    double[] maxCargoMassOptions = {1000.0, 1500.0, 2000.0};
     int massIndex = (int) (Math.random()*2);
     double averageCargoPerDay = Math.random()*50;
     double storageVolume = Math.random()*60;
@@ -653,13 +653,26 @@ public String generateString(int length)
     /**
      * Method intended to return a list of all vehicles that have a specific type of
      * fault.
-     * @param a: Arraylist
-     * @param b: Fault
+     * @param b: String
      * @return: List of vehicles with that type of fault.
      */
-    public ArrayList<Vehicle> vehiclesWithTypeOfFault(ArrayList<Vehicle> v, Fault f) {
-        return v;
-
+    public ArrayList<Vehicle> vehiclesWithTypeOfFault(String faultType) {
+        ArrayList<Vehicle> vehiclesWithFault = new ArrayList<Vehicle>();
+        for (Entry<String, Vehicle> entry: vehicleCollection.entrySet())
+        {
+            Vehicle currentVehicle = entry.getValue();
+            ArrayList<String> currentVehicleFaultHistory = currentVehicle.getFaultHistory();
+            for (int faultIndex = 0; faultIndex < currentVehicleFaultHistory.size(); faultIndex++)
+            {
+                Fault currentFault = faultCollection.get(currentVehicleFaultHistory.get(faultIndex));
+                String currentFaultType = currentFault.getFaultType().toUpperCase();   
+                if (currentFaultType.equals(faultType.toUpperCase()))
+                {
+                    vehiclesWithFault.add(currentVehicle);
+                }
+            }
+        }
+        return vehiclesWithFault;
     }
 
     /**
@@ -710,8 +723,18 @@ public String generateString(int length)
      * @param b: int
      * @return: the fault density in faults per time window.
      */
-    public int faultDensity(ArrayList<Fault> f, TimeWindow timeWindow) {
-        return 0;
+    public int faultDensity(TimeWindow timeWindow) {
+        ArrayList<Fault> faultsInThisTimeWindow = new ArrayList<Fault>();
+        for (Entry<String, Fault> entry: faultCollection.entrySet())
+        {
+            Fault currentFault = entry.getValue();
+            if (currentFault.inTimeWindow(timeWindow))
+            {
+                faultsInThisTimeWindow.add(currentFault);
+            }
+        }
+        int faultDensity = faultsInThisTimeWindow.size()/(int)timeWindow.totalTimeInWindow();
+        return faultDensity;
     }
 
     /**

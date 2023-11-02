@@ -93,18 +93,21 @@ public class Fault
         return active;
     }
 
-    /** Method intended to add a vehicle to the list of vehicles.  
-    *  Vehicle type here is just an extra detail and they will all be added to the same list. 
-    *      @param a: String
-    *      @param b: String
-    *      @param c: String
-    *      @param d: int
-    *      @param e: String
-    *      @param f: boolean
-    *      @return: Nothing, method just adds vehicle to the list.    
-    */ 
-    public void addVehicle(String vehicleType, String vehicleID, String factory, int yearOfManufacture, String model, boolean active)
+    /** Method intended to return whether or not this fault is in a given time window. 
+     * @param timeWindow
+     * @return boolean
+     */
+    public boolean inTimeWindow(TimeWindow timeWindow)
     {
-
+        boolean inTimeWindow = false;
+        long timeWindowSecondsStartedSince1970 = timeWindow.secondsStartedSince1970();
+        long timeWindowSecondsClearedSince1970 = timeWindow.secondsClearedSince1970();
+        long faultSecondsStartedSince1970 = this.timeWindow.secondsStartedSince1970();
+        long faultSecondsClearedSince1970 = this.timeWindow.secondsClearedSince1970();
+        if (faultSecondsStartedSince1970 >= timeWindowSecondsStartedSince1970 && faultSecondsClearedSince1970 <= timeWindowSecondsClearedSince1970)
+        {
+            inTimeWindow = true;
+        }
+        return inTimeWindow;
     }
 }

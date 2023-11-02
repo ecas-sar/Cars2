@@ -112,15 +112,6 @@ public class Vehicle {
     }
 
     /**
-     * Method intended to add a fault to the list.
-     * @param a: String
-     * @return Nothing, method just adds fault to the list.
-     */
-    public void addFault(String faultID) {
-
-    }
-
-    /**
      * Method intended to return data after a certain fault was given up to the
      * paramater passed in.
      * @param a: int
