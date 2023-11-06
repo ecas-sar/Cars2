@@ -112,30 +112,6 @@ public class Vehicle {
     }
 
     /**
-     * Method intended to return data after a certain fault was given up to the
-     * paramater passed in.
-     * @param a: int
-     * @return: Arraylist of fault IDs that happened after a fault up to a certain
-     * index.
-     */
-    public ArrayList<String> afterFault(int lastFaultIndex) {
-        return faultHistory;
-
-    }
-
-    /**
-     * Method intended to return data before a certain fault was given up to the
-     * @paramater passed in.
-     * @param a: int
-     * @return: Arraylist of fault IDs that happened before a fault up to a certain
-     * index.
-     */
-    public ArrayList<String> beforeFault(int lastFaultIndex) {
-        return faultHistory;
-
-    }
-
-    /**
      * Method intended to return how many average faults per time window
      * @param a: int
      * @return: the fault density in faults per time window.

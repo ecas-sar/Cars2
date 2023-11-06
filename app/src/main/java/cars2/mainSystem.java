@@ -680,7 +680,7 @@ public String generateString(int length)
      * @param a: ArrayList of faults
      * @return: The most common fault.
      */
-    public Fault mostCommonFault(ArrayList<Fault> f) {
+    public Fault mostCommonFault() {
         int mostNumVehicles = Integer.MIN_VALUE;
         Fault mostCommon = null;
         for (Entry<String, Fault> entry: faultCollection.entrySet())
@@ -735,6 +735,105 @@ public String generateString(int length)
         }
         int faultDensity = faultsInThisTimeWindow.size()/(int)timeWindow.totalTimeInWindow();
         return faultDensity;
+    }
+
+    /** Method intended to get the faults that happened around a given fault in a given vehicle. Whether the faults
+     * are before or after the given fault depends on the boolean after. If it is set to true, the faults will be after,
+     * and if it is false, the faults will be before. 
+     * @param vehicle
+     * @param faultID
+     * @param timeWindow
+     * @param after
+     * @return Arraylist
+     */
+    public ArrayList<String> aroundFault(Vehicle vehicle, String faultID, TimeWindow timeWindow, boolean after)
+    {
+        ArrayList<String> aroundFault = new ArrayList<String>();
+         int indexOfFault = indexOfFaultInVehicle(vehicle, faultID);
+        // If statement prevents out of bounds error if the fault passed in is not in the vehicle's fault history.
+        if (indexOfFault == -1)
+        {
+            return null;
+        }
+        if (after)
+        {
+            aroundFault = afterFault(vehicle, faultID, indexOfFault, timeWindow);
+        }
+        else
+        {
+            aroundFault = beforeFault(vehicle, faultID, indexOfFault, timeWindow);
+        }
+        return aroundFault;
+    }
+
+    /**
+     * Method intended to return the faults after a certain fault was given up to the
+     * paramater passed in.
+     * @param a: fault
+     * @param b: string
+     * @param c: Timewindow
+     * @return: Arraylist of fault IDs that happened after a fault.
+     */
+    public ArrayList<String> afterFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
+        ArrayList<String> afterFault = new ArrayList<String>();
+        ArrayList<String> vehicleFaultHistory = vehicle.getFaultHistory();
+        for (int faultIndex = indexOfFault; faultIndex < vehicleFaultHistory.size(); faultIndex++)
+        {
+            Fault currentFault = faultCollection.get(vehicleFaultHistory.get(faultIndex));
+            TimeWindow currentFaultTimeWindow = currentFault.getTimeWindow();
+            if (currentFaultTimeWindow.secondsClearedSince1970() <= timeWindow.secondsClearedSince1970())
+            {
+                afterFault.add(currentFault.getFaultID());
+            }              
+        }
+        return afterFault;
+    }
+
+    /**
+     * Method intended to return data before a certain fault was given up to the
+     * @paramater passed in.
+     * @param a: fault
+     * @param b: string
+     * @param c: Timewindow
+     * @return: Arraylist of fault IDs that happened before a fault up to a certain
+     * index.
+     */
+    public ArrayList<String> beforeFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
+        ArrayList<String> beforeFault = new ArrayList<String>();
+        ArrayList<String> vehicleFaultHistory = vehicle.getFaultHistory();
+        for (int faultIndex = indexOfFault; faultIndex < vehicleFaultHistory.size(); faultIndex++)
+        {
+            Fault currentFault = faultCollection.get(vehicleFaultHistory.get(faultIndex));
+            TimeWindow currentFaultTimeWindow = currentFault.getTimeWindow();
+            if (currentFaultTimeWindow.secondsClearedSince1970() >= timeWindow.secondsClearedSince1970())
+            {
+                beforeFault.add(currentFault.getFaultID());
+            }              
+        }
+        return beforeFault;
+    }
+
+    /** Method intended to look for a faultID in a vehicle's fault history. Uses a while loop
+     * so that the system can break out of the loop once the ID is found. 
+     * @param vehicle
+     * @param faultID
+     * @return
+     */
+    public int indexOfFaultInVehicle(Vehicle vehicle, String faultID)
+    {
+        ArrayList<String> vehicleFaultHistory = new ArrayList<String>();
+        int faultIndex = 0;
+        boolean found = false;
+        int placeOfFaultID = -1;
+        while (faultIndex < vehicleFaultHistory.size() && !found)
+        {
+            if (vehicleFaultHistory.get(faultIndex).equals(faultID))
+            {
+                placeOfFaultID = faultIndex;
+                found = true;
+            }
+        }
+        return placeOfFaultID;
     }
 
     /**

@@ -15,6 +15,23 @@ class AppTest {
 
     }
 
+    @Test void practicalFunctions()
+    {
+        try {
+            mainSystem m = new mainSystem();
+            Vehicle mostFaults = m.mostFaults();
+            ArrayList<Vehicle> vehTypeOfFault = m.vehiclesWithTypeOfFault("Software");
+            ArrayList<Vehicle> vehActiveFaults = m.vehiclesWithActiveFaults();
+            Fault mostCommonFault = m.mostCommonFault();
+            Fault rarestFault = m.rarestFault();
+            int faultDensity = m.faultDensity(new TimeWindow("1989-07-19T12:30:00", "1993-09-02T14:32:27"));
+            ArrayList<String> aroundFault = m.aroundFault(mostFaults, "OWEDVYAWOFQELE", new TimeWindow("1989-07-19T12:30:00", "1993-09-02T14:32:27"), true);
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
     @Test void appStats() {
         try {
             mainSystem m = new mainSystem();
