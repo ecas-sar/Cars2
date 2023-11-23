@@ -8,10 +8,10 @@ public class TimeWindow {
     private String timeStarted;
     private String timeCleared;
     private String time1970;
-    private LocalDateTime dateStarted;
-    private LocalDateTime dateCleared;
-    private LocalDateTime date1970;
-    private Duration duration;
+    private transient LocalDateTime dateStarted;
+    private transient LocalDateTime dateCleared;
+    private transient LocalDateTime date1970;
+    private transient Duration duration;
     
 
     /**

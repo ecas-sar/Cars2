@@ -397,6 +397,18 @@ public Fault createFault()
     String faultID = generateString(finLength);
     String timeStarted = createTime();
     String timeEnded = createTime();
+    TimeWindow tw = new TimeWindow(timeStarted, timeEnded);
+    // Fix to make sure no time windows ended before they started
+    if (tw.totalTimeInWindow() < 0)
+    {
+        String yearStarted = timeStarted.substring(0, 4);
+        String yearCleared = timeEnded.substring(0, 4);
+        int ys = Integer.parseInt(yearStarted);
+        int yc = Integer.parseInt(yearCleared);
+        yc = ys+1;
+        timeEnded = Integer.toString(yc) + timeEnded.substring(4);
+    }
+
     boolean active = true;
     Fault f = new Fault(faultType, faultID, "", timeStarted, timeEnded, new ArrayList<String>(), active);
     if (faultType.equals("Mechanical"))
@@ -745,9 +757,9 @@ public String generateString(int length)
      * @param after
      * @return Arraylist
      */
-    public ArrayList<String> aroundFault(Vehicle vehicle, String faultID, TimeWindow timeWindow, boolean after)
+    public ArrayList<Fault> aroundFault(Vehicle vehicle, String faultID, TimeWindow timeWindow, boolean after)
     {
-        ArrayList<String> aroundFault = new ArrayList<String>();
+        ArrayList<Fault> aroundFault = new ArrayList<Fault>();
          int indexOfFault = indexOfFaultInVehicle(vehicle, faultID);
         // If statement prevents out of bounds error if the fault passed in is not in the vehicle's fault history.
         if (indexOfFault == -1)
@@ -773,8 +785,8 @@ public String generateString(int length)
      * @param c: Timewindow
      * @return: Arraylist of fault IDs that happened after a fault.
      */
-    public ArrayList<String> afterFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
-        ArrayList<String> afterFault = new ArrayList<String>();
+    public ArrayList<Fault> afterFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
+        ArrayList<Fault> afterFault = new ArrayList<Fault>();
         ArrayList<String> vehicleFaultHistory = vehicle.getFaultHistory();
         for (int faultIndex = indexOfFault; faultIndex < vehicleFaultHistory.size(); faultIndex++)
         {
@@ -782,7 +794,7 @@ public String generateString(int length)
             TimeWindow currentFaultTimeWindow = currentFault.getTimeWindow();
             if (currentFaultTimeWindow.secondsClearedSince1970() <= timeWindow.secondsClearedSince1970())
             {
-                afterFault.add(currentFault.getFaultID());
+                afterFault.add(currentFault);
             }              
         }
         return afterFault;
@@ -797,8 +809,8 @@ public String generateString(int length)
      * @return: Arraylist of fault IDs that happened before a fault up to a certain
      * index.
      */
-    public ArrayList<String> beforeFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
-        ArrayList<String> beforeFault = new ArrayList<String>();
+    public ArrayList<Fault> beforeFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
+        ArrayList<Fault> beforeFault = new ArrayList<Fault>();
         ArrayList<String> vehicleFaultHistory = vehicle.getFaultHistory();
         for (int faultIndex = indexOfFault; faultIndex < vehicleFaultHistory.size(); faultIndex++)
         {
@@ -806,7 +818,7 @@ public String generateString(int length)
             TimeWindow currentFaultTimeWindow = currentFault.getTimeWindow();
             if (currentFaultTimeWindow.secondsClearedSince1970() >= timeWindow.secondsClearedSince1970())
             {
-                beforeFault.add(currentFault.getFaultID());
+                beforeFault.add(currentFault);
             }              
         }
         return beforeFault;

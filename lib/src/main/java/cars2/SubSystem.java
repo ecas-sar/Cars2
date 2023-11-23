@@ -2,6 +2,9 @@ package cars2;
 
 import java.util.ArrayList;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 public class SubSystem {
 
     private String subID;
@@ -42,5 +45,15 @@ public class SubSystem {
      */
     public ArrayList<String> getFaultsInThisSubSystem() {
         return faultsInThisSubSystem;
+    }
+
+    /** Method intended to get the json representation of the object and not the pointer.
+     * @return: String
+     */
+    public String toString()
+    {
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        String jsonString = gson.toJson(this);
+        return jsonString;
     }
 }

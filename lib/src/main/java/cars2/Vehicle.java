@@ -123,10 +123,13 @@ public class Vehicle {
         return 0;
     }
 
-    public String toJson()
+    /** Method intended to get the json representation of the object and not the pointer.
+     * @return: String
+     */
+    public String toString()
     {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        String jsonVehicle = gson.toJson(this);
-        return jsonVehicle;
+        String jsonString = gson.toJson(this);
+        return jsonString;
     }
 }

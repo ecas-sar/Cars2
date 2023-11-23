@@ -10,11 +10,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 class LibraryTest {
-    @Test void testWholeProgram()
-    {
-
-    }
-
     @Test void practicalFunctions()
     {
         try {
@@ -25,7 +20,7 @@ class LibraryTest {
             Fault mostCommonFault = m.mostCommonFault();
             Fault rarestFault = m.rarestFault();
             int faultDensity = m.faultDensity(new TimeWindow("1989-07-19T12:30:00", "1993-09-02T14:32:27"));
-            ArrayList<String> aroundFault = m.aroundFault(mostFaults, "OWEDVYAWOFQELE", new TimeWindow("1989-07-19T12:30:00", "1993-09-02T14:32:27"), true);
+            ArrayList<Fault> aroundFault = m.aroundFault(mostFaults, "OWEDVYAWOFQELE", new TimeWindow("1989-07-19T12:30:00", "1993-09-02T14:32:27"), true);
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
