@@ -15,7 +15,18 @@ public class FaultCollection
     public FaultCollection(ListCreator l) {
         // Deserialises contents of fault archive into a list.
         f = l.createList("FaultArchive", Fault.class);
+        // Post process collection
+        postDeserialisationProcessing();
         faultCollection = createCollection(f);
+    }
+
+    private void postDeserialisationProcessing()
+    {   
+        for (Fault fIndex : f)
+        {
+            TimeWindow tw = fIndex.getTimeWindow();
+            fIndex.createTimeWindow(tw.getTimeStarted(), tw.getTimeCleared());
+        }
     }
 
      /** Method intended to create hashmap. 

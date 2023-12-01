@@ -11,9 +11,8 @@ public class Fault
     private String faultID;
     private String subSystemName;
     private TimeWindow timeWindow;
-    private boolean active;
-
     private ArrayList<String> vehicles;
+    private boolean active;
 
     /** Constructor method prepares the object by initialising variables.
         @param a: String
@@ -29,11 +28,22 @@ public class Fault
         faultType = ft;
         faultID = fid;
         subSystemName = s;
-        timeWindow = new TimeWindow(ts, tc);
-        active = a;
+        createTimeWindow(ts, tc);
         vehicles = v;
+        active = a;
     }
     
+
+    /** Method intended to make time window from start and clear times. 
+     * Done in its own method so it can be called in post processing in list creator and this constructor.
+     * @param ts
+     * @param tc
+     */
+    public void createTimeWindow(String ts, String tc)
+    {
+        timeWindow = new TimeWindow(ts, tc);
+    }
+
     /** Accessor method.
         @param a: None
         @return: String

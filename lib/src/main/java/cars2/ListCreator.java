@@ -42,6 +42,8 @@ public class ListCreator {
          .registerSubtype(Software.class, "Software");
 
          gson = new GsonBuilder().setPrettyPrinting()
+                // The fault constructor must be called so that the time window LDC and duration attributes can be initialised.
+                .registerTypeAdapter(Fault.class, new FaultInstanceCreator())
                 .registerTypeAdapterFactory(vehicleRuntimeTypeAdapterFactory)
                 .registerTypeAdapterFactory(faultRuntimeTypeAdapterFactory)
                 .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeTypeAdapter())

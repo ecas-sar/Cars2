@@ -130,6 +130,86 @@ public class mainSystem implements dataAndStats {
         // White box testing to check if sampling method was working properly.
     }
 
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Vehicle> getVehicleCollection()
+    {
+        return vehicleCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Fault> getFaultCollection() 
+    {
+        return faultCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Owner> getOwnerCollection() 
+    {
+        return ownerCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, SubSystem> getSubSystemCollection() 
+    {
+        return subSystemCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, SUV> getSUVCollection() 
+    {
+        return SUVCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Truck> getTruckCollection() 
+    {
+        return truckCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Van> getVanCollection() 
+    {
+        return vanCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Mechanical> getMechFaultCollection() 
+    {
+        return mechFaultCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Electrical> getElectFaultCollection() 
+    {
+        return electFaultCollection;
+    }
+
+    /** Accessor method
+     * @return Hashmap
+     */
+    public HashMap<String, Software> getSoftFaultCollection() 
+    {
+        return softFaultCollection;
+    }
+
     /**
      * Method intended to sort vehicle types into correct list.
      * @param a: none
@@ -734,7 +814,7 @@ public String generateString(int length)
      * @param b: int
      * @return: the fault density in faults per time window.
      */
-    public int faultDensity(TimeWindow timeWindow) {
+    public double faultDensity(TimeWindow timeWindow) {
         ArrayList<Fault> faultsInThisTimeWindow = new ArrayList<Fault>();
         for (Entry<String, Fault> entry: faultCollection.entrySet())
         {
@@ -744,7 +824,7 @@ public String generateString(int length)
                 faultsInThisTimeWindow.add(currentFault);
             }
         }
-        int faultDensity = faultsInThisTimeWindow.size()/(int)timeWindow.totalTimeInWindow();
+        double faultDensity = faultsInThisTimeWindow.size()/timeWindow.totalTimeInWindow();
         return faultDensity;
     }
 
@@ -760,7 +840,7 @@ public String generateString(int length)
     public ArrayList<Fault> aroundFault(Vehicle vehicle, String faultID, TimeWindow timeWindow, boolean after)
     {
         ArrayList<Fault> aroundFault = new ArrayList<Fault>();
-         int indexOfFault = indexOfFaultInVehicle(vehicle, faultID);
+        int indexOfFault = indexOfFaultInVehicle(vehicle, faultID);
         // If statement prevents out of bounds error if the fault passed in is not in the vehicle's fault history.
         if (indexOfFault == -1)
         {
@@ -788,11 +868,13 @@ public String generateString(int length)
     public ArrayList<Fault> afterFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
         ArrayList<Fault> afterFault = new ArrayList<Fault>();
         ArrayList<String> vehicleFaultHistory = vehicle.getFaultHistory();
+        Fault subjectFault = faultCollection.get(faultID);
+        TimeWindow subjectTimeWindow = subjectFault.getTimeWindow();
         for (int faultIndex = indexOfFault; faultIndex < vehicleFaultHistory.size(); faultIndex++)
         {
             Fault currentFault = faultCollection.get(vehicleFaultHistory.get(faultIndex));
             TimeWindow currentFaultTimeWindow = currentFault.getTimeWindow();
-            if (currentFaultTimeWindow.secondsClearedSince1970() <= timeWindow.secondsClearedSince1970())
+            if (currentFaultTimeWindow.secondsStartedSince1970() > subjectTimeWindow.secondsStartedSince1970() && currentFault.inTimeWindow(timeWindow))
             {
                 afterFault.add(currentFault);
             }              
@@ -802,7 +884,7 @@ public String generateString(int length)
 
     /**
      * Method intended to return data before a certain fault was given up to the
-     * @paramater passed in.
+     * paramater passed in.
      * @param a: fault
      * @param b: string
      * @param c: Timewindow
@@ -812,11 +894,13 @@ public String generateString(int length)
     public ArrayList<Fault> beforeFault(Vehicle vehicle, String faultID, int indexOfFault, TimeWindow timeWindow) {
         ArrayList<Fault> beforeFault = new ArrayList<Fault>();
         ArrayList<String> vehicleFaultHistory = vehicle.getFaultHistory();
+        Fault subjectFault = faultCollection.get(faultID);
+        TimeWindow subjectTimeWindow = subjectFault.getTimeWindow();
         for (int faultIndex = indexOfFault; faultIndex < vehicleFaultHistory.size(); faultIndex++)
         {
             Fault currentFault = faultCollection.get(vehicleFaultHistory.get(faultIndex));
             TimeWindow currentFaultTimeWindow = currentFault.getTimeWindow();
-            if (currentFaultTimeWindow.secondsClearedSince1970() >= timeWindow.secondsClearedSince1970())
+            if (currentFaultTimeWindow.secondsStartedSince1970() < subjectTimeWindow.secondsStartedSince1970() && currentFault.inTimeWindow(timeWindow));
             {
                 beforeFault.add(currentFault);
             }              
@@ -832,7 +916,7 @@ public String generateString(int length)
      */
     public int indexOfFaultInVehicle(Vehicle vehicle, String faultID)
     {
-        ArrayList<String> vehicleFaultHistory = new ArrayList<String>();
+        ArrayList<String> vehicleFaultHistory = vehicle.getFaultHistory();
         int faultIndex = 0;
         boolean found = false;
         int placeOfFaultID = -1;
@@ -921,9 +1005,16 @@ public String generateString(int length)
         // Gets the class of the object.
         Class<?> objClass = o.getClass();
 
+        // Gets the object's subclass (if there is no subclass this will be null).
+        Class<?> superClass = objClass.getSuperclass();
+
         // Takes the methods of the object.
         Method[] allMethods =  objClass.getDeclaredMethods();
-
+        List<Method> allMethodsList = Arrays.asList(allMethods);
+        if (superClass != null)
+        {
+            
+        }
         /* Creates a new list that will contain the accessor methods of the object.
         *  It is a list so that the size can be changed to adjust how many accessor methods are in the object. 
         */
