@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Mechanical extends Fault {
 private String systemName;
-private int partNumber;
+private double partNumber;
 private String failureType;
 
     /**
@@ -15,7 +15,7 @@ private String failureType;
      * @param tc
      * @return: Nothing, constructor just prepares object for use.
      */
-    public Mechanical(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a, String sn, int pn, String fty) {
+    public Mechanical(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a, String sn, double pn, String fty) {
         super(ft, fid, s, ts, tc, v, a);
         systemName = sn;
         partNumber = pn;
@@ -34,7 +34,7 @@ private String failureType;
     /** Accessor method
      * @return int
      */
-    public int getPartNumber() 
+    public double getPartNumber() 
     {
         return partNumber;
     }

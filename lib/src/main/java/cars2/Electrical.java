@@ -3,8 +3,8 @@ package cars2;
 import java.util.ArrayList;
 
 public class Electrical extends Fault{
-private int modulePartNumber;
-private int numModulesAffected;
+private double modulePartNumber;
+private double numModulesAffected;
 private String DBCForOBT;
 
     /**
@@ -15,7 +15,7 @@ private String DBCForOBT;
      * @param tc
      * @return: Nothing, constructor just prepares object for use.
      */
-    public Electrical(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a, int mpn, int nma, String d) {
+    public Electrical(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a, double mpn, double nma, String d) {
         super(ft, fid, s, ts, tc, v, a);
         modulePartNumber = mpn;
         numModulesAffected = nma;
@@ -26,7 +26,7 @@ private String DBCForOBT;
     /** Accessor method
      * @return int
      */
-    public int getModulePartNumber() 
+    public double getModulePartNumber() 
     {
         return modulePartNumber;
     }
@@ -34,7 +34,7 @@ private String DBCForOBT;
     /** Accessor method.
      * @return int
      */
-    public int getNumModulesAffected()
+    public double getNumModulesAffected()
     {
         return numModulesAffected;
     }

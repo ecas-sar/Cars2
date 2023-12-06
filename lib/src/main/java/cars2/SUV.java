@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 // Child class of Vehicle, will inherit all variables and methods and will use super keyword to inherit constructor.
 public class SUV extends Vehicle {
-private int numSeats;
-private int averageNumPassangers;
+private double numSeats;
+private double averageNumPassangers;
 
     /**
      * Constructor intended to inherit that of Vehicle.
@@ -16,7 +16,7 @@ private int averageNumPassangers;
      * @param a
      * @return: Nothing, constructor just prepares object for use.
      */
-    public SUV(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, String own, boolean a, int ns, int anp) {
+    public SUV(String vt, String vid, String f, double yom, String m, ArrayList<String> fa, String own, boolean a, double ns, double anp) {
         super(vt, vid, f, yom, m, fa, own, a);
         numSeats = ns;
         averageNumPassangers = anp;
@@ -25,7 +25,7 @@ private int averageNumPassangers;
     /** Accessor method
      * @return int
      */
-    public int getNumSeats() 
+    public double getNumSeats() 
     {
         return numSeats;
     }
@@ -33,7 +33,7 @@ private int averageNumPassangers;
     /** Accessor method
      * @return int
      */
-    public int getAverageNumPassangers() 
+    public double getAverageNumPassangers() 
     {
         return averageNumPassangers;
     }

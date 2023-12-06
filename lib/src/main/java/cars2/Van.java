@@ -17,7 +17,7 @@ private double storageVolume;
      * @param a
      * @return: Nothing, constructor just prepares object for use.
      */
-    public Van(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, String own, boolean a, double mcm, double acpd, double sv) 
+    public Van(String vt, String vid, String f, double yom, String m, ArrayList<String> fa, String own, boolean a, double mcm, double acpd, double sv) 
     {
         super(vt, vid, f, yom, m, fa, own, a);
         maxCargoMass = mcm;

@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.lang.reflect.Array;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.Duration;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -46,8 +44,6 @@ public class ListCreator {
                 .registerTypeAdapter(Fault.class, new FaultInstanceCreator())
                 .registerTypeAdapterFactory(vehicleRuntimeTypeAdapterFactory)
                 .registerTypeAdapterFactory(faultRuntimeTypeAdapterFactory)
-                .registerTypeAdapter(LocalDateTime.class, new LocalDateTimeTypeAdapter())
-                .registerTypeAdapter(Duration.class, new DurationTypeAdapter())
                 .create();
     }
 

@@ -9,7 +9,7 @@ public class Vehicle {
     private String vehicleType;
     private String vehicleID;
     private String factory;
-    private int yearOfManufacture;
+    private double yearOfManufacture;
     // Chose not to include model subclasses in order to contain project scope.
     private String model;
     private ArrayList<String> faultHistory;
@@ -25,7 +25,7 @@ public class Vehicle {
      * @param e: boolean
      * @return: Nothing, method just prepares object for use.
      */
-    public Vehicle(String vt, String vid, String f, int yom, String m, ArrayList<String> fa, String own, boolean a) {
+    public Vehicle(String vt, String vid, String f, double yom, String m, ArrayList<String> fa, String own, boolean a) {
         vehicleType = vt;
         vehicleID = vid;
         factory = f;
@@ -69,7 +69,7 @@ public class Vehicle {
      * @param a: None
      * @return: int
      */
-    public int getYearOfManufacture() {
+    public double getYearOfManufacture() {
         return yearOfManufacture;
     }
 

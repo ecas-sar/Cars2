@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Software extends Fault {
 private boolean runTime;
-private int numLinesInClass;
+private double numLinesInClass;
 private boolean majorOrMinor;
 private String severity;
 
@@ -16,7 +16,7 @@ private String severity;
      * @param tc
      * @return: Nothing, constructor just prepares object for use.
      */
-    public Software(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a, boolean rt, int nlic, boolean mom, String se) {
+    public Software(String ft, String fid, String s, String ts, String tc, ArrayList<String> v, boolean a, boolean rt, double nlic, boolean mom, String se) {
         super(ft, fid, s, ts, tc, v, a);
         runTime = rt;
         numLinesInClass = nlic;
@@ -35,7 +35,7 @@ private String severity;
     /** Accessor method
      * @return int
      */
-    public int getNumLinesInClass() 
+    public double getNumLinesInClass() 
     {
         return numLinesInClass;
     }

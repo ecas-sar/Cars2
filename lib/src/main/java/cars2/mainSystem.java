@@ -385,7 +385,7 @@ public Vehicle createVehicle()
     String factory = factories[factoryIndex];
     String model = models[modelIndex];
     String vehicleID = null;
-    int yearOfManufacture = (int)(1970 + Math.random()*53);
+    double yearOfManufacture = (1970 + Math.random()*53);
     boolean active = true;
 
     // Randomly selects characters and forms them into a string of length 14.
@@ -393,7 +393,7 @@ public Vehicle createVehicle()
     vehicleID = generateString(vinLength);
 
     // the vehicle type, factory, and model are taken from an array of 3 and the index is randomly decided. This is done to prevent many if statements to save processing power.
-    Vehicle v = new Vehicle(vehicleType, vehicleID, factory, yearOfManufacture, model, new ArrayList<String>(), "", active);
+    Vehicle v = new Vehicle(vehicleType, vehicleID, factory, noDecimals(yearOfManufacture), model, new ArrayList<String>(), "", active);
     if (vehicleType.equals("SUV"))
     {
         SUV suv = createSUV(v);
@@ -417,10 +417,10 @@ public Vehicle createVehicle()
  */
 public SUV createSUV(Vehicle v)
 {
-    int[] numSeatsOptions = {5, 7, 8};
+    double[] numSeatsOptions = {5, 7, 8};
     int optionIndex = (int) (Math.random()*2);
-    int averageNumPassengers = (int) (Math.random()*7 + 1);
-    SUV suv = new SUV(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getOwnerID(), v.getActive(), numSeatsOptions[optionIndex], averageNumPassengers);
+    double averageNumPassengers = (Math.random()*7 + 1);
+    SUV suv = new SUV(v.getVehicleType(), v.getVehicleID(), v.getFactory(), v.getYearOfManufacture(), v.getModel(), v.getFaultHistory(), v.getOwnerID(), v.getActive(), noDecimals(numSeatsOptions[optionIndex]), noDecimals(averageNumPassengers));
     return suv; 
 }
 
@@ -515,11 +515,11 @@ public Fault createFault()
 public Mechanical createMechanical(Fault f)
 {
     String systemName = generateString((int) (Math.random()*8));
-    int partNumber = (int) (Math.random()*15);
+    double partNumber = (Math.random()*15);
     String[] failureTypes = {"Abrasion", "Corrosion", "Shock loading", "Creep", "Fatigue"};
     int failureIndex = (int) (Math.random()*failureTypes.length - 0.1);
     String failureType = failureTypes[failureIndex];
-    Mechanical mech = new Mechanical(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), f.getActive(), systemName, partNumber, failureType);
+    Mechanical mech = new Mechanical(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), f.getActive(), systemName, noDecimals(partNumber), failureType);
     return mech;
 }
 
@@ -529,10 +529,10 @@ public Mechanical createMechanical(Fault f)
  */
 public Electrical createElectrical(Fault f)
 {
-    int modulePartNumber = (int) (Math.random()*15);
-    int numModulesAffected = (int) (Math.random()*15);
+    double modulePartNumber = (Math.random()*15);
+    double numModulesAffected = (Math.random()*15);
     String DBCForOBT = generateString(10);
-    Electrical elect = new Electrical(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), f.getActive(), modulePartNumber, numModulesAffected, DBCForOBT);
+    Electrical elect = new Electrical(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), f.getActive(), noDecimals(modulePartNumber), noDecimals(numModulesAffected), DBCForOBT);
     return elect;
 }
 
@@ -549,10 +549,22 @@ public Software createSoftware(Fault f)
         runTime = true;
         majorOrMinor = true;
     } 
-    int numLinesInClass = (int) (Math.random()*1500);
+    double numLinesInClass = (Math.random()*1500);
     String severity = generateString(9);
-    Software soft = new Software(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), f.getActive(), runTime, numLinesInClass, majorOrMinor, severity);
+    Software soft = new Software(f.getFaultType(), f.getFaultID(), f.getSubSystemName(), f.getTimeWindow().getTimeStarted(), f.getTimeWindow().getTimeCleared(), f.getVehicles(), f.getActive(), runTime, noDecimals(numLinesInClass), majorOrMinor, severity);
     return soft;
+}
+
+/** Method intended to remove the decimals from a double but still return it as a double.
+ * @param d
+ * @return double
+ */
+public double noDecimals(double d)
+{
+    String doubleString = Double.toString(d);
+    String noDecimalsString = doubleString.substring(0, doubleString.indexOf("."));
+    double noDecimals = Double.parseDouble(noDecimalsString);
+    return noDecimals;
 }
 
 /** Method intended to randomly generate a time in day:month:year hour:minute format.
@@ -955,7 +967,7 @@ public String generateString(int length)
 
      @Override
      public <E, T> LinkedList<T> createDataList(HashMap<String, E> dataGiver, String dataName, int numOfSamples, boolean systematic) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-        LinkedList<T> toReturn = new LinkedList<T>();
+        LinkedList<T> toReturn = new LinkedList<T>(); 
         @SuppressWarnings("unchecked")
         E[] valsOfMap = (E[]) dataGiver.values().toArray();
         // samplingInterval used for systematic smapling but can help calculate starting point also. 
@@ -1010,21 +1022,23 @@ public String generateString(int length)
 
         // Takes the methods of the object.
         Method[] allMethods =  objClass.getDeclaredMethods();
-        List<Method> allMethodsList = Arrays.asList(allMethods);
+        List<Method> allMethodsList = new ArrayList<>(Arrays.asList(allMethods));
         if (superClass != null)
         {
-            
+            Method[] superClassMethods = superClass.getDeclaredMethods();
+            allMethodsList.addAll(Arrays.asList(superClassMethods));
         }
+
         /* Creates a new list that will contain the accessor methods of the object.
         *  It is a list so that the size can be changed to adjust how many accessor methods are in the object. 
         */
         ArrayList<Method> accessorMethods = new ArrayList<Method>();
 
         // Iterates through array of all methods.
-        for (int methodIndex = 0; methodIndex < allMethods.length; methodIndex++)
+        for (int methodIndex = 0; methodIndex < allMethodsList.size(); methodIndex++)
         {
             // The method the list is currently pointing to.
-            Method currentMethod = allMethods[methodIndex];
+            Method currentMethod = allMethodsList.get(methodIndex);
             // Only adds the the new list if it is a accessor method. 
             if (isAccessor(currentMethod))
             {
