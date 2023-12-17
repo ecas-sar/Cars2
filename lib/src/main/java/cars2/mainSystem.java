@@ -288,9 +288,12 @@ public class mainSystem implements dataAndStats {
            String VName = valAtIndex.getfirstID();
            String FName = valAtIndex.getsecondID();
            // To prevent run-time error of if it tries to access one of these methods from a null object.
-           if (v != null && f != null)
+           if (v != null)
            {
                 v.getFaultHistory().add(FName);
+           }
+           if (f != null)
+           {
                 f.getVehicles().add(VName);
            }
         }
@@ -311,9 +314,12 @@ public class mainSystem implements dataAndStats {
            String VName = valAtIndex.getfirstID();
            String OName = valAtIndex.getsecondID();
            // To prevent run-time error of if it tries to access one of these methods from a null object.
-           if (v != null && o != null)
+           if (v != null)
            {
                 o.getOwnedVehicles().add(VName);
+           }
+           if (o != null)
+           {
                 v.setOwnerID(OName);
            }
         }
@@ -334,9 +340,12 @@ public class mainSystem implements dataAndStats {
            Fault f = faultCollection.get(FName);
            SubSystem s = subSystemCollection.get(SName);
            // To prevent run-time error of if it tries to access one of these methods from a null object.
-           if (s != null && f != null)
+           if (s != null)
            {
                 s.getFaultsInThisSubSystem().add(FName);
+           }
+           if (f != null)    
+           {
                 f.setSubSystemName(s.getSubSystemName());
            }
         }
@@ -490,7 +499,7 @@ public Fault createFault()
     }
 
     boolean active = true;
-    Fault f = new Fault(faultType, faultID, "", timeStarted, timeEnded, new ArrayList<String>(), active);
+    Fault f = new Fault(faultType, faultID, "Speed Camera", timeStarted, timeEnded, new ArrayList<String>(), active);
     if (faultType.equals("Mechanical"))
     {
         Mechanical mech = createMechanical(f);
@@ -836,7 +845,7 @@ public String generateString(int length)
                 faultsInThisTimeWindow.add(currentFault);
             }
         }
-        double faultDensity = faultsInThisTimeWindow.size()/timeWindow.totalTimeInWindow();
+        double faultDensity = (double) faultsInThisTimeWindow.size()/(double) timeWindow.totalTimeInWindow();
         return faultDensity;
     }
 
